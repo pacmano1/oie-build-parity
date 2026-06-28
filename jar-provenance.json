@@ -1,0 +1,5228 @@
+[
+ {
+  "path": "client/lib/autocomplete-2.5.4.jar",
+  "sha1": "88714fa47e7fcbec8240e37f2508b13614a16fef",
+  "size": 145602,
+  "status": "none",
+  "reason": "content identical to Central com.fifesoft:autocomplete:2.5.4 (verified entry by entry); only the zip container/packaging differs. Kept vendored under the file-level SHA-exact policy; adopting the Central coordinate is a safe documented follow-up."
+ },
+ {
+  "path": "client/lib/bcutil-jdk18on-1.78.1.jar",
+  "sha1": "5353ca39fe2f148dab9ca1d637a43d0750456254",
+  "size": 705135,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.bouncycastle",
+    "a": "bcutil-jdk18on",
+    "v": "1.78.1"
+   }
+  ]
+ },
+ {
+  "path": "client/lib/bcprov-jdk18on-1.78.1.jar",
+  "sha1": "39e9e45359e20998eb79c1828751f94a818d25f8",
+  "size": 8324412,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.bouncycastle",
+    "a": "bcprov-jdk18on",
+    "v": "1.78.1"
+   }
+  ]
+ },
+ {
+  "path": "client/lib/bcpkix-jdk18on-1.78.1.jar",
+  "sha1": "17b3541f736df97465f87d9f5b5dfa4991b37bb3",
+  "size": 1125173,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.bouncycastle",
+    "a": "bcpkix-jdk18on",
+    "v": "1.78.1"
+   }
+  ]
+ },
+ {
+  "path": "client/lib/commons-codec-1.21.0.jar",
+  "sha1": "d95f998db5f89900fe895daf6cd2cddcb2f1d64b",
+  "size": 402494,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "commons-codec",
+    "a": "commons-codec",
+    "v": "1.21.0"
+   }
+  ]
+ },
+ {
+  "path": "client/lib/commons-beanutils-1.11.0.jar",
+  "sha1": "ac03ea606d13de04c2e4508227680faff151f491",
+  "size": 246806,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "commons-beanutils",
+    "a": "commons-beanutils",
+    "v": "1.11.0"
+   }
+  ]
+ },
+ {
+  "path": "client/lib/commons-compress-1.28.0.jar",
+  "sha1": "e482f2c7a88dac3c497e96aa420b6a769f59c8d7",
+  "size": 1117221,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.apache.commons",
+    "a": "commons-compress",
+    "v": "1.28.0"
+   }
+  ]
+ },
+ {
+  "path": "client/lib/commons-collections4-4.4.jar",
+  "sha1": "62ebe7544cb7164d87e0637a2a6a2bdc981395e8",
+  "size": 751914,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.apache.commons",
+    "a": "commons-collections4",
+    "v": "4.4"
+   }
+  ]
+ },
+ {
+  "path": "client/lib/commons-io-2.21.0.jar",
+  "sha1": "52a6f68fe5afe335cde95461dd5c3412f04996f7",
+  "size": 585274,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "commons-io",
+    "a": "commons-io",
+    "v": "2.21.0"
+   }
+  ]
+ },
+ {
+  "path": "client/lib/commons-configuration2-2.13.0.jar",
+  "sha1": "dc795ed544554745c52d56e0ab5f42529a7cef4e",
+  "size": 675321,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.apache.commons",
+    "a": "commons-configuration2",
+    "v": "2.13.0"
+   }
+  ]
+ },
+ {
+  "path": "client/lib/commons-logging-1.3.5.jar",
+  "sha1": "a3fcc5d3c29b2b03433aa2d2f2d2c1b1638924a1",
+  "size": 73737,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "commons-logging",
+    "a": "commons-logging",
+    "v": "1.3.5"
+   }
+  ]
+ },
+ {
+  "path": "client/lib/commons-lang3-3.20.0.jar",
+  "sha1": "65897b3e5731220962e659e001904af3c3cbeba9",
+  "size": 713862,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.apache.commons",
+    "a": "commons-lang3",
+    "v": "3.20.0"
+   }
+  ]
+ },
+ {
+  "path": "client/lib/commons-pool2-2.3.jar",
+  "sha1": "62a559a025fd890c30364296ece14643ba9c8c5b",
+  "size": 109568,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.apache.commons",
+    "a": "commons-pool2",
+    "v": "2.3"
+   }
+  ]
+ },
+ {
+  "path": "client/lib/commons-text-1.15.0.jar",
+  "sha1": "9899093aa40f0199d6c39b131b8f087cdb37e399",
+  "size": 264873,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.apache.commons",
+    "a": "commons-text",
+    "v": "1.15.0"
+   }
+  ]
+ },
+ {
+  "path": "client/lib/commons-vfs2-2.10.0.jar",
+  "sha1": "a306167fdb88152403c8b00595b1502ffacd5b76",
+  "size": 534044,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.apache.commons",
+    "a": "commons-vfs2",
+    "v": "2.10.0"
+   }
+  ]
+ },
+ {
+  "path": "client/lib/guava-32.0.1-jre.jar",
+  "sha1": "6e5d51a72d142f2d40a57dfb897188b36a95b489",
+  "size": 3037368,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "com.google.guava",
+    "a": "guava",
+    "v": "32.0.1-jre"
+   }
+  ]
+ },
+ {
+  "path": "client/lib/hapi-structures-v22-2.3.jar",
+  "sha1": "fa5132c6c657a7f1eaa1497111d4e36b32c6cc81",
+  "size": 407491,
+  "status": "none",
+  "reason": "content identical to Central ca.uhn.hapi:hapi-structures-v22:2.3 (verified entry by entry); only the zip container/packaging differs. Kept vendored under the file-level SHA-exact policy; adopting the Central coordinate is a safe documented follow-up."
+ },
+ {
+  "path": "client/lib/hapi-structures-v23-2.3.jar",
+  "sha1": "7610cbc40f2ce4a1fbdd831979ef42dd2088cf70",
+  "size": 1997093,
+  "status": "none",
+  "reason": "content identical to Central ca.uhn.hapi:hapi-structures-v23:2.3 (verified entry by entry); only the zip container/packaging differs. Kept vendored under the file-level SHA-exact policy; adopting the Central coordinate is a safe documented follow-up."
+ },
+ {
+  "path": "client/lib/hapi-base-2.3.jar",
+  "sha1": "90e1b36af965c950d70de0a657ff224a8086b28e",
+  "size": 663899,
+  "status": "none",
+  "reason": "content identical to Central ca.uhn.hapi:hapi-base:2.3 (verified entry by entry); only the zip container/packaging differs. Kept vendored under the file-level SHA-exact policy; adopting the Central coordinate is a safe documented follow-up."
+ },
+ {
+  "path": "client/lib/hapi-structures-v21-2.3.jar",
+  "sha1": "d48417a1908e4e4694dc3d3f6450aefb8bb80717",
+  "size": 174988,
+  "status": "none",
+  "reason": "content identical to Central ca.uhn.hapi:hapi-structures-v21:2.3 (verified entry by entry); only the zip container/packaging differs. Kept vendored under the file-level SHA-exact policy; adopting the Central coordinate is a safe documented follow-up."
+ },
+ {
+  "path": "client/lib/hapi-structures-v231-2.3.jar",
+  "sha1": "aeb04355e85cbd55d0612ab78aa511f7cb2b4165",
+  "size": 1270056,
+  "status": "none",
+  "reason": "content identical to Central ca.uhn.hapi:hapi-structures-v231:2.3 (verified entry by entry); only the zip container/packaging differs. Kept vendored under the file-level SHA-exact policy; adopting the Central coordinate is a safe documented follow-up."
+ },
+ {
+  "path": "client/lib/hapi-structures-v251-2.3.jar",
+  "sha1": "1f5addbadb0930471d976178a22995f9f7f673e2",
+  "size": 1883758,
+  "status": "none",
+  "reason": "content identical to Central ca.uhn.hapi:hapi-structures-v251:2.3 (verified entry by entry); only the zip container/packaging differs. Kept vendored under the file-level SHA-exact policy; adopting the Central coordinate is a safe documented follow-up."
+ },
+ {
+  "path": "client/lib/hapi-structures-v25-2.3.jar",
+  "sha1": "d2f4791e7139d259e107d384d1cb91c81b221868",
+  "size": 1890603,
+  "status": "none",
+  "reason": "content identical to Central ca.uhn.hapi:hapi-structures-v25:2.3 (verified entry by entry); only the zip container/packaging differs. Kept vendored under the file-level SHA-exact policy; adopting the Central coordinate is a safe documented follow-up."
+ },
+ {
+  "path": "client/lib/hapi-structures-v24-2.3.jar",
+  "sha1": "f9689d6a75a9248fb528f3b0d8b17e07692213e1",
+  "size": 1461319,
+  "status": "none",
+  "reason": "content identical to Central ca.uhn.hapi:hapi-structures-v24:2.3 (verified entry by entry); only the zip container/packaging differs. Kept vendored under the file-level SHA-exact policy; adopting the Central coordinate is a safe documented follow-up."
+ },
+ {
+  "path": "client/lib/hapi-structures-v27-2.3.jar",
+  "sha1": "3f7d410710a30ec72a5bf02fed897630d18347ae",
+  "size": 2219604,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "ca.uhn.hapi",
+    "a": "hapi-structures-v27",
+    "v": "2.3"
+   }
+  ]
+ },
+ {
+  "path": "client/lib/hapi-structures-v26-2.3.jar",
+  "sha1": "5ceccab8f5c4d62eec7fee84e184f8e133615a94",
+  "size": 2083091,
+  "status": "none",
+  "reason": "content identical to Central ca.uhn.hapi:hapi-structures-v26:2.3 (verified entry by entry); only the zip container/packaging differs. Kept vendored under the file-level SHA-exact policy; adopting the Central coordinate is a safe documented follow-up."
+ },
+ {
+  "path": "client/lib/hapi-structures-v28-2.3.jar",
+  "sha1": "3afe23ad8d7345bd63d4ba2a2814e291930c3621",
+  "size": 2341924,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "ca.uhn.hapi",
+    "a": "hapi-structures-v28",
+    "v": "2.3"
+   }
+  ]
+ },
+ {
+  "path": "client/lib/hapi-structures-v281-2.3.jar",
+  "sha1": "254204a380b95bf842c8f3882b49621b81a4a97c",
+  "size": 2402047,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "ca.uhn.hapi",
+    "a": "hapi-structures-v281",
+    "v": "2.3"
+   }
+  ]
+ },
+ {
+  "path": "client/lib/httpclient-4.5.13.jar",
+  "sha1": "e5f6cae5ca7ecaac1ec2827a9e2d65ae2869cada",
+  "size": 780321,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.apache.httpcomponents",
+    "a": "httpclient",
+    "v": "4.5.13"
+   }
+  ]
+ },
+ {
+  "path": "client/lib/hk2-utils-2.4.0-b31.jar",
+  "sha1": "2c5cb698cfec8dde859c3db854178d03bf7248a6",
+  "size": 101088,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.glassfish.hk2",
+    "a": "hk2-utils",
+    "v": "2.4.0-b31"
+   }
+  ]
+ },
+ {
+  "path": "client/lib/hk2-api-2.4.0-b31.jar",
+  "sha1": "c4b5f6c426f8e412e606332b93b7cf745a9a12c5",
+  "size": 173037,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.glassfish.hk2",
+    "a": "hk2-api",
+    "v": "2.4.0-b31"
+   }
+  ]
+ },
+ {
+  "path": "client/lib/hk2-locator-2.4.0-b31.jar",
+  "sha1": "436d6e1ad2b0a3aee939c6e05983b007b3578142",
+  "size": 179705,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.glassfish.hk2",
+    "a": "hk2-locator",
+    "v": "2.4.0-b31"
+   }
+  ]
+ },
+ {
+  "path": "client/lib/istack-commons-runtime-3.0.6.jar",
+  "sha1": "ef4d2cd80d5b79b8dbe689fb2d7fbfb61cf494f4",
+  "size": 25469,
+  "status": "none",
+  "reason": "version 3.0.6 never published to Central (artifact exists; recent versions: 4.1.0, 4.1.0-M1, 4.1.1, 4.1.2, 4.2.0)"
+ },
+ {
+  "path": "client/lib/jackson-annotations-2.14.3.jar",
+  "sha1": "b49701acb02b8e95ae1967821cfbafc220cf5795",
+  "size": 76636,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "com.fasterxml.jackson.core",
+    "a": "jackson-annotations",
+    "v": "2.14.3"
+   }
+  ]
+ },
+ {
+  "path": "client/lib/httpcore-4.4.13.jar",
+  "sha1": "853b96d3afbb7bf8cc303fe27ee96836a10c1834",
+  "size": 328593,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.apache.httpcomponents",
+    "a": "httpcore",
+    "v": "4.4.13"
+   }
+  ]
+ },
+ {
+  "path": "client/lib/httpmime-4.5.13.jar",
+  "sha1": "efc110bad4a0d45cda7858e6beee1d8a8313da5a",
+  "size": 41790,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.apache.httpcomponents",
+    "a": "httpmime",
+    "v": "4.5.13"
+   }
+  ]
+ },
+ {
+  "path": "client/lib/jai_imageio.jar",
+  "sha1": "d6e1cff914c758b42635331f8884714e363886f1",
+  "size": 927714,
+  "status": "none",
+  "reason": "no version published to Maven Central under the same artifact name matches these bytes; java.net-era JAI ImageIO build, kept vendored under its stable launcher filename"
+ },
+ {
+  "path": "client/lib/jackson-core-2.14.3.jar",
+  "sha1": "4fa101f81504ed6811bf1823270adb51a9b45ff3",
+  "size": 473081,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "com.fasterxml.jackson.core",
+    "a": "jackson-core",
+    "v": "2.14.3"
+   }
+  ]
+ },
+ {
+  "path": "client/lib/jakarta.activation-1.2.1.jar",
+  "sha1": "8013606426a73d8ba6b568370877251e91a38b89",
+  "size": 65690,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "com.sun.activation",
+    "a": "jakarta.activation",
+    "v": "1.2.1"
+   }
+  ]
+ },
+ {
+  "path": "client/lib/jackson-databind-2.14.3.jar",
+  "sha1": "ba0373b04bf0f03b0cd268cd2e5e8444aaaf9208",
+  "size": 1617187,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "com.fasterxml.jackson.core",
+    "a": "jackson-databind",
+    "v": "2.14.3"
+   }
+  ]
+ },
+ {
+  "path": "client/lib/javaparser-1.0.8.jar",
+  "sha1": "da8eb7fd91ee8330c03fab6fa497c45d25d7fc59",
+  "size": 256349,
+  "status": "none",
+  "reason": "locally modified: 114 class files differ vs Central com.google.code.javaparser:javaparser:1.0.8 (verified entry by entry). Must stay vendored; treat as a fork when considering upgrades."
+ },
+ {
+  "path": "client/lib/jakarta.mail-1.6.7.jar",
+  "sha1": "319df0e9d536c1a01acdfe49b6e82b97d2393073",
+  "size": 676654,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "com.sun.mail",
+    "a": "jakarta.mail",
+    "v": "1.6.7"
+   }
+  ]
+ },
+ {
+  "path": "client/lib/java-semver-0.10.2.jar",
+  "sha1": "0502f9bd3596181449222c16c6ad7108e320dce3",
+  "size": 52003,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "com.github.zafarkhaja",
+    "a": "java-semver",
+    "v": "0.10.2"
+   }
+  ]
+ },
+ {
+  "path": "client/lib/javassist-3.26.0-GA.jar",
+  "sha1": "bb2890849968d8d8311ffba8c37b0ce16ce284dc",
+  "size": 782535,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.javassist",
+    "a": "javassist",
+    "v": "3.26.0-GA"
+   }
+  ]
+ },
+ {
+  "path": "client/lib/javax.annotation-api-1.3.2.jar",
+  "sha1": "934c04d3cfef185a8008e7bf34331b79730a9d43",
+  "size": 26586,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "one.gfw",
+    "a": "javax.annotation-api",
+    "v": "1.3.2"
+   },
+   {
+    "g": "javax.annotation",
+    "a": "javax.annotation-api",
+    "v": "1.3.2"
+   }
+  ]
+ },
+ {
+  "path": "client/lib/javax.inject-2.4.0-b31.jar",
+  "sha1": "04bb71bbdae1064675e36d057bd2c95a00e2e84b",
+  "size": 5951,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.glassfish.hk2.external",
+    "a": "javax.inject",
+    "v": "2.4.0-b31"
+   }
+  ]
+ },
+ {
+  "path": "client/lib/javax.ws.rs-api-2.0.1.jar",
+  "sha1": "104e9c2b5583cfcfeac0402316221648d6d8ea6b",
+  "size": 115534,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "javax.ws.rs",
+    "a": "javax.ws.rs-api",
+    "v": "2.0.1"
+   }
+  ]
+ },
+ {
+  "path": "client/lib/javax.activation-api-1.2.0.jar",
+  "sha1": "85262acf3ca9816f9537ca47d5adeabaead7cb16",
+  "size": 56674,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "one.gfw",
+    "a": "javax.activation-api",
+    "v": "1.2.0"
+   },
+   {
+    "g": "javax.activation",
+    "a": "javax.activation-api",
+    "v": "1.2.0"
+   }
+  ]
+ },
+ {
+  "path": "client/lib/jaxb-api-2.4.0-b180725.0427.jar",
+  "sha1": "7400ad346870308bcc46bb60f3c553af3e331b4d",
+  "size": 128036,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "javax.xml.bind",
+    "a": "jaxb-api",
+    "v": "2.4.0-b180725.0427"
+   }
+  ]
+ },
+ {
+  "path": "client/lib/jcifs-ng-2.1.10.jar",
+  "sha1": "94b4c0b173540ae98c379ea278713665fd8ab3eb",
+  "size": 822626,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "eu.agno3.jcifs",
+    "a": "jcifs-ng",
+    "v": "2.1.10"
+   }
+  ]
+ },
+ {
+  "path": "client/lib/jaxb-runtime-2.4.0-b180725.0644.jar",
+  "sha1": "a98b5ac2580f5870049c008021c77e0b918d04ee",
+  "size": 1093480,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.glassfish.jaxb",
+    "a": "jaxb-runtime",
+    "v": "2.4.0-b180725.0644"
+   }
+  ]
+ },
+ {
+  "path": "client/lib/jersey-client-2.22.1.jar",
+  "sha1": "e39297ef90f4b9bdf0a61b6fa73ae275c1b6e8f1",
+  "size": 163417,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.glassfish.jersey.core",
+    "a": "jersey-client",
+    "v": "2.22.1"
+   }
+  ]
+ },
+ {
+  "path": "client/lib/jersey-common-2.22.1.jar",
+  "sha1": "b5811d8385766f35d10d204952f3d5b57ee2fb60",
+  "size": 696004,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.glassfish.jersey.core",
+    "a": "jersey-common",
+    "v": "2.22.1"
+   }
+  ]
+ },
+ {
+  "path": "client/lib/jersey-proxy-client-2.22.1.jar",
+  "sha1": "20163533fe4e4cb7c3116388640d85d31625b3b2",
+  "size": 9603,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.glassfish.jersey.ext",
+    "a": "jersey-proxy-client",
+    "v": "2.22.1"
+   }
+  ]
+ },
+ {
+  "path": "client/lib/jersey-guava-2.22.1.jar",
+  "sha1": "2b79eb893818539370899c24893fac9b2fdc4dbd",
+  "size": 971278,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.glassfish.jersey.bundles.repackaged",
+    "a": "jersey-guava",
+    "v": "2.22.1"
+   }
+  ]
+ },
+ {
+  "path": "client/lib/jersey-media-multipart-2.22.1.jar",
+  "sha1": "c68e535f2395fa961a0903dac0ae32641768d4b6",
+  "size": 68019,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.glassfish.jersey.media",
+    "a": "jersey-media-multipart",
+    "v": "2.22.1"
+   }
+  ]
+ },
+ {
+  "path": "client/lib/jetty-util-9.4.57.v20241219.jar",
+  "sha1": "7bf7ea75644ac064199e1e32c66ccd312239f2dc",
+  "size": 588962,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.eclipse.jetty",
+    "a": "jetty-util",
+    "v": "9.4.57.v20241219"
+   }
+  ]
+ },
+ {
+  "path": "client/lib/libphonenumber-8.12.50.jar",
+  "sha1": "8a772e3d56aed23c4f2c2750606b0be87bc0ded4",
+  "size": 365129,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "com.googlecode.libphonenumber",
+    "a": "libphonenumber",
+    "v": "8.12.50"
+   }
+  ]
+ },
+ {
+  "path": "client/lib/language_support.jar",
+  "sha1": "69a515c27e6a1cffbeb69d7aa4c84e4f8501effc",
+  "size": 1084840,
+  "status": "none",
+  "reason": "no artifact of this name on Maven Central; NetBeans-era library, kept vendored under its stable launcher filename"
+ },
+ {
+  "path": "client/lib/joda-time-2.9.9.jar",
+  "sha1": "f7b520c458572890807d143670c9b24f4de90897",
+  "size": 634048,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "joda-time",
+    "a": "joda-time",
+    "v": "2.9.9"
+   }
+  ]
+ },
+ {
+  "path": "client/lib/log4j-core-2.25.3.jar",
+  "sha1": "dd9c8ecba5c8dc5e1574804d0bfdc1ef155ad9ea",
+  "size": 2018402,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.apache.logging.log4j",
+    "a": "log4j-core",
+    "v": "2.25.3"
+   }
+  ]
+ },
+ {
+  "path": "client/lib/log4j-api-2.25.3.jar",
+  "sha1": "fb385330d89c2d61058ef649403f214633569205",
+  "size": 350610,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.apache.logging.log4j",
+    "a": "log4j-api",
+    "v": "2.25.3"
+   }
+  ]
+ },
+ {
+  "path": "client/lib/log4j-1.2-api-2.25.3.jar",
+  "sha1": "a7e550e638a5e534fd944616c5ae665a67e9501e",
+  "size": 359213,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.apache.logging.log4j",
+    "a": "log4j-1.2-api",
+    "v": "2.25.3"
+   }
+  ]
+ },
+ {
+  "path": "client/lib/looks-2.3.1.jar",
+  "sha1": "9bbae3f200a69bce3e237d3fbbfa47933071c6ba",
+  "size": 408024,
+  "status": "none",
+  "reason": "version 2.3.1 never published to Central (artifact exists; recent versions: 2.1.2, 2.1.4, 2.2.0, 2.2.1, 2.2.2)"
+ },
+ {
+  "path": "client/lib/miglayout-core-4.2.jar",
+  "sha1": "70f2bfa2a077ee1632cc8229deffa1d942825c78",
+  "size": 66663,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "com.miglayout",
+    "a": "miglayout-core",
+    "v": "4.2"
+   }
+  ]
+ },
+ {
+  "path": "client/lib/miglayout-swing-4.2.jar",
+  "sha1": "ca85067488e79a2078ba4eb8e2617653e9172388",
+  "size": 14580,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "com.miglayout",
+    "a": "miglayout-swing",
+    "v": "4.2"
+   }
+  ]
+ },
+ {
+  "path": "client/lib/mimepull-1.9.7.jar",
+  "sha1": "3085dfe507b6ce43c1fcc60f228d65a7731b8e7d",
+  "size": 63985,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.jvnet.mimepull",
+    "a": "mimepull",
+    "v": "1.9.7"
+   }
+  ]
+ },
+ {
+  "path": "client/lib/openjfx.jar",
+  "sha1": "aa463c16358168d451731e5818b1adcacfa634c0",
+  "size": 9342744,
+  "status": "none",
+  "reason": "no version published to Maven Central under the same artifact name matches these bytes (all candidate fingerprints checked); era-specific repackaged JavaFX, kept vendored under its stable launcher filename"
+ },
+ {
+  "path": "client/lib/regions-2.15.28.jar",
+  "sha1": "b25e279a4fdf0b5dab31627201b68dc6b8d32eb5",
+  "size": 434672,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "software.amazon.awssdk",
+    "a": "regions",
+    "v": "2.15.28"
+   }
+  ]
+ },
+ {
+  "path": "client/lib/quartz-2.3.2.jar",
+  "sha1": "18a6d6b5a40b77bd060b34cb9f2acadc4bae7c8a",
+  "size": 693050,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.quartz-scheduler",
+    "a": "quartz",
+    "v": "2.3.2"
+   }
+  ]
+ },
+ {
+  "path": "client/lib/reflections-0.9.10.jar",
+  "sha1": "c7f4ea230aedc757ca1499ebcfb2953c81cf8b67",
+  "size": 129763,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.reflections",
+    "a": "reflections",
+    "v": "0.9.10"
+   }
+  ]
+ },
+ {
+  "path": "client/lib/rhino-1.7.13.jar",
+  "sha1": "e6b2e12dc79fbdc58d8bf62a583705a551ec37d6",
+  "size": 1315838,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.mozilla",
+    "a": "rhino",
+    "v": "1.7.13"
+   }
+  ]
+ },
+ {
+  "path": "client/lib/staxon-1.3.jar",
+  "sha1": "9cec6f1c1a05eeebb0b83b3e909fd4b496ddde44",
+  "size": 150272,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "de.odysseus.staxon",
+    "a": "staxon",
+    "v": "1.3"
+   }
+  ]
+ },
+ {
+  "path": "client/lib/slf4j-log4j12-1.7.30.jar",
+  "sha1": "c21f55139d8141d2231214fb1feaf50a1edca95e",
+  "size": 12211,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.slf4j",
+    "a": "slf4j-log4j12",
+    "v": "1.7.30"
+   }
+  ]
+ },
+ {
+  "path": "client/lib/rsyntaxtextarea-2.5.6.jar",
+  "sha1": "4a2678e4369165849ca6315aa10363b31a2bea75",
+  "size": 1037784,
+  "status": "none",
+  "reason": "content identical to Central com.fifesoft:rsyntaxtextarea:2.5.6 (verified entry by entry); only the zip container/packaging differs. Kept vendored under the file-level SHA-exact policy; adopting the Central coordinate is a safe documented follow-up."
+ },
+ {
+  "path": "client/lib/slf4j-api-1.7.30.jar",
+  "sha1": "b5a4b6d16ab13e34a88fae84c35cd5d68cac922c",
+  "size": 41472,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.slf4j",
+    "a": "slf4j-api",
+    "v": "1.7.30"
+   }
+  ]
+ },
+ {
+  "path": "client/lib/velocity-engine-core-2.3.jar",
+  "sha1": "e2133b723d0e42be74880d34de6bf6538ea7f915",
+  "size": 531308,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.apache.velocity",
+    "a": "velocity-engine-core",
+    "v": "2.3"
+   }
+  ]
+ },
+ {
+  "path": "client/lib/swagger-annotations-2.0.10.jar",
+  "sha1": "85428dac7402fdca267219b76af644c21246b6bd",
+  "size": 34730,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "io.swagger.core.v3",
+    "a": "swagger-annotations",
+    "v": "2.0.10"
+   }
+  ]
+ },
+ {
+  "path": "client/lib/swingx-core-1.6.2.jar",
+  "sha1": "4475f362eafad890321631daa3d56f0f55e04edf",
+  "size": 1447793,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.swinglabs",
+    "a": "swingx-core",
+    "v": "1.6.2-2"
+   },
+   {
+    "g": "org.swinglabs",
+    "a": "swingx-core",
+    "v": "1.6.2"
+   }
+  ]
+ },
+ {
+  "path": "client/lib/utils-2.15.28.jar",
+  "sha1": "bc047a4cd8b6ce45d191a2818b41782c9034c80e",
+  "size": 108518,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "software.amazon.awssdk",
+    "a": "utils",
+    "v": "2.15.28"
+   }
+  ]
+ },
+ {
+  "path": "client/lib/xpp3-1.1.4c.jar",
+  "sha1": "9b988ea84b9e4e9f1874e390ce099b8ac12cfff5",
+  "size": 120069,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "xpp3",
+    "a": "xpp3",
+    "v": "1.1.4c"
+   }
+  ]
+ },
+ {
+  "path": "client/lib/velocity-tools-generic-3.1.jar",
+  "sha1": "07aaa49086a64cd9dab967a8437cc03abbfad655",
+  "size": 216933,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.apache.velocity.tools",
+    "a": "velocity-tools-generic",
+    "v": "3.1"
+   }
+  ]
+ },
+ {
+  "path": "client/lib/wizard.jar",
+  "sha1": "53dc1dea20f962804d29b95fcd3dccdb172047d0",
+  "size": 222624,
+  "status": "none",
+  "reason": "no version published to Maven Central under the same artifact name matches these bytes (40 candidates checked); NetBeans-era wizard library, kept vendored under its stable launcher filename"
+ },
+ {
+  "path": "client/lib/xstream-1.4.20.jar",
+  "sha1": "0e2315b8b2e95e9f21697833c8e56cdd9c98a5ee",
+  "size": 644649,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "com.thoughtworks.xstream",
+    "a": "xstream",
+    "v": "1.4.20"
+   }
+  ]
+ },
+ {
+  "path": "command/lib/bcutil-jdk18on-1.78.1.jar",
+  "sha1": "5353ca39fe2f148dab9ca1d637a43d0750456254",
+  "size": 705135,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.bouncycastle",
+    "a": "bcutil-jdk18on",
+    "v": "1.78.1"
+   }
+  ]
+ },
+ {
+  "path": "client/lib/zip4j_1.3.3.jar",
+  "sha1": "7791ee6d23da90c010fb9993dde3f124ba0f750c",
+  "size": 123998,
+  "status": "none",
+  "reason": "locally modified: 60 class files differ vs Central net.lingala.zip4j:zip4j:1.3.3 (verified entry by entry). Must stay vendored; treat as a fork when considering upgrades."
+ },
+ {
+  "path": "command/lib/bcprov-jdk18on-1.78.1.jar",
+  "sha1": "39e9e45359e20998eb79c1828751f94a818d25f8",
+  "size": 8324412,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.bouncycastle",
+    "a": "bcprov-jdk18on",
+    "v": "1.78.1"
+   }
+  ]
+ },
+ {
+  "path": "command/lib/bcpkix-jdk18on-1.78.1.jar",
+  "sha1": "17b3541f736df97465f87d9f5b5dfa4991b37bb3",
+  "size": 1125173,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.bouncycastle",
+    "a": "bcpkix-jdk18on",
+    "v": "1.78.1"
+   }
+  ]
+ },
+ {
+  "path": "command/lib/commons-beanutils-1.11.0.jar",
+  "sha1": "ac03ea606d13de04c2e4508227680faff151f491",
+  "size": 246806,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "commons-beanutils",
+    "a": "commons-beanutils",
+    "v": "1.11.0"
+   }
+  ]
+ },
+ {
+  "path": "command/lib/commons-cli-1.2.jar",
+  "sha1": "2bf96b7aa8b611c177d329452af1dc933e14501c",
+  "size": 41123,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "commons-cli",
+    "a": "commons-cli",
+    "v": "1.2"
+   }
+  ]
+ },
+ {
+  "path": "command/lib/commons-codec-1.21.0.jar",
+  "sha1": "d95f998db5f89900fe895daf6cd2cddcb2f1d64b",
+  "size": 402494,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "commons-codec",
+    "a": "commons-codec",
+    "v": "1.21.0"
+   }
+  ]
+ },
+ {
+  "path": "command/lib/commons-collections4-4.4.jar",
+  "sha1": "62ebe7544cb7164d87e0637a2a6a2bdc981395e8",
+  "size": 751914,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.apache.commons",
+    "a": "commons-collections4",
+    "v": "4.4"
+   }
+  ]
+ },
+ {
+  "path": "command/lib/commons-io-2.21.0.jar",
+  "sha1": "52a6f68fe5afe335cde95461dd5c3412f04996f7",
+  "size": 585274,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "commons-io",
+    "a": "commons-io",
+    "v": "2.21.0"
+   }
+  ]
+ },
+ {
+  "path": "command/lib/commons-configuration2-2.13.0.jar",
+  "sha1": "dc795ed544554745c52d56e0ab5f42529a7cef4e",
+  "size": 675321,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.apache.commons",
+    "a": "commons-configuration2",
+    "v": "2.13.0"
+   }
+  ]
+ },
+ {
+  "path": "command/lib/commons-lang3-3.20.0.jar",
+  "sha1": "65897b3e5731220962e659e001904af3c3cbeba9",
+  "size": 713862,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.apache.commons",
+    "a": "commons-lang3",
+    "v": "3.20.0"
+   }
+  ]
+ },
+ {
+  "path": "command/lib/commons-logging-1.3.5.jar",
+  "sha1": "a3fcc5d3c29b2b03433aa2d2f2d2c1b1638924a1",
+  "size": 73737,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "commons-logging",
+    "a": "commons-logging",
+    "v": "1.3.5"
+   }
+  ]
+ },
+ {
+  "path": "command/lib/commons-pool2-2.3.jar",
+  "sha1": "62a559a025fd890c30364296ece14643ba9c8c5b",
+  "size": 109568,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.apache.commons",
+    "a": "commons-pool2",
+    "v": "2.3"
+   }
+  ]
+ },
+ {
+  "path": "command/lib/commons-text-1.15.0.jar",
+  "sha1": "9899093aa40f0199d6c39b131b8f087cdb37e399",
+  "size": 264873,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.apache.commons",
+    "a": "commons-text",
+    "v": "1.15.0"
+   }
+  ]
+ },
+ {
+  "path": "command/lib/commons-vfs2-2.10.0.jar",
+  "sha1": "a306167fdb88152403c8b00595b1502ffacd5b76",
+  "size": 534044,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.apache.commons",
+    "a": "commons-vfs2",
+    "v": "2.10.0"
+   }
+  ]
+ },
+ {
+  "path": "command/lib/guava-32.0.1-jre.jar",
+  "sha1": "6e5d51a72d142f2d40a57dfb897188b36a95b489",
+  "size": 3037368,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "com.google.guava",
+    "a": "guava",
+    "v": "32.0.1-jre"
+   }
+  ]
+ },
+ {
+  "path": "command/lib/hk2-utils-2.4.0-b31.jar",
+  "sha1": "2c5cb698cfec8dde859c3db854178d03bf7248a6",
+  "size": 101088,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.glassfish.hk2",
+    "a": "hk2-utils",
+    "v": "2.4.0-b31"
+   }
+  ]
+ },
+ {
+  "path": "command/lib/hk2-locator-2.4.0-b31.jar",
+  "sha1": "436d6e1ad2b0a3aee939c6e05983b007b3578142",
+  "size": 179705,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.glassfish.hk2",
+    "a": "hk2-locator",
+    "v": "2.4.0-b31"
+   }
+  ]
+ },
+ {
+  "path": "command/lib/hk2-api-2.4.0-b31.jar",
+  "sha1": "c4b5f6c426f8e412e606332b93b7cf745a9a12c5",
+  "size": 173037,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.glassfish.hk2",
+    "a": "hk2-api",
+    "v": "2.4.0-b31"
+   }
+  ]
+ },
+ {
+  "path": "command/lib/httpclient-4.5.13.jar",
+  "sha1": "e5f6cae5ca7ecaac1ec2827a9e2d65ae2869cada",
+  "size": 780321,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.apache.httpcomponents",
+    "a": "httpclient",
+    "v": "4.5.13"
+   }
+  ]
+ },
+ {
+  "path": "command/lib/jackson-core-2.14.3.jar",
+  "sha1": "4fa101f81504ed6811bf1823270adb51a9b45ff3",
+  "size": 473081,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "com.fasterxml.jackson.core",
+    "a": "jackson-core",
+    "v": "2.14.3"
+   }
+  ]
+ },
+ {
+  "path": "command/lib/httpmime-4.5.13.jar",
+  "sha1": "efc110bad4a0d45cda7858e6beee1d8a8313da5a",
+  "size": 41790,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.apache.httpcomponents",
+    "a": "httpmime",
+    "v": "4.5.13"
+   }
+  ]
+ },
+ {
+  "path": "command/lib/jackson-annotations-2.14.3.jar",
+  "sha1": "b49701acb02b8e95ae1967821cfbafc220cf5795",
+  "size": 76636,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "com.fasterxml.jackson.core",
+    "a": "jackson-annotations",
+    "v": "2.14.3"
+   }
+  ]
+ },
+ {
+  "path": "command/lib/httpcore-4.4.13.jar",
+  "sha1": "853b96d3afbb7bf8cc303fe27ee96836a10c1834",
+  "size": 328593,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.apache.httpcomponents",
+    "a": "httpcore",
+    "v": "4.4.13"
+   }
+  ]
+ },
+ {
+  "path": "command/lib/jackson-databind-2.14.3.jar",
+  "sha1": "ba0373b04bf0f03b0cd268cd2e5e8444aaaf9208",
+  "size": 1617187,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "com.fasterxml.jackson.core",
+    "a": "jackson-databind",
+    "v": "2.14.3"
+   }
+  ]
+ },
+ {
+  "path": "command/lib/jakarta.activation-1.2.1.jar",
+  "sha1": "8013606426a73d8ba6b568370877251e91a38b89",
+  "size": 65690,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "com.sun.activation",
+    "a": "jakarta.activation",
+    "v": "1.2.1"
+   }
+  ]
+ },
+ {
+  "path": "command/lib/javassist-3.26.0-GA.jar",
+  "sha1": "bb2890849968d8d8311ffba8c37b0ce16ce284dc",
+  "size": 782535,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.javassist",
+    "a": "javassist",
+    "v": "3.26.0-GA"
+   }
+  ]
+ },
+ {
+  "path": "command/lib/javax.activation-api-1.2.0.jar",
+  "sha1": "85262acf3ca9816f9537ca47d5adeabaead7cb16",
+  "size": 56674,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "one.gfw",
+    "a": "javax.activation-api",
+    "v": "1.2.0"
+   },
+   {
+    "g": "javax.activation",
+    "a": "javax.activation-api",
+    "v": "1.2.0"
+   }
+  ]
+ },
+ {
+  "path": "command/lib/javax.annotation-api-1.3.jar",
+  "sha1": "67747496d8b5c1f300ed3cde4ba69d6f453ba984",
+  "size": 26430,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "javax.annotation",
+    "a": "javax.annotation-api",
+    "v": "1.3"
+   }
+  ]
+ },
+ {
+  "path": "command/lib/javax.inject-2.4.0-b31.jar",
+  "sha1": "04bb71bbdae1064675e36d057bd2c95a00e2e84b",
+  "size": 5951,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.glassfish.hk2.external",
+    "a": "javax.inject",
+    "v": "2.4.0-b31"
+   }
+  ]
+ },
+ {
+  "path": "command/lib/javax.ws.rs-api-2.0.1.jar",
+  "sha1": "104e9c2b5583cfcfeac0402316221648d6d8ea6b",
+  "size": 115534,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "javax.ws.rs",
+    "a": "javax.ws.rs-api",
+    "v": "2.0.1"
+   }
+  ]
+ },
+ {
+  "path": "command/lib/jaxb-api-2.4.0-b180725.0427.jar",
+  "sha1": "7400ad346870308bcc46bb60f3c553af3e331b4d",
+  "size": 128036,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "javax.xml.bind",
+    "a": "jaxb-api",
+    "v": "2.4.0-b180725.0427"
+   }
+  ]
+ },
+ {
+  "path": "command/lib/jersey-client-2.22.1.jar",
+  "sha1": "e39297ef90f4b9bdf0a61b6fa73ae275c1b6e8f1",
+  "size": 163417,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.glassfish.jersey.core",
+    "a": "jersey-client",
+    "v": "2.22.1"
+   }
+  ]
+ },
+ {
+  "path": "command/lib/jersey-guava-2.22.1.jar",
+  "sha1": "2b79eb893818539370899c24893fac9b2fdc4dbd",
+  "size": 971278,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.glassfish.jersey.bundles.repackaged",
+    "a": "jersey-guava",
+    "v": "2.22.1"
+   }
+  ]
+ },
+ {
+  "path": "command/lib/jaxb-runtime-2.4.0-b180725.0644.jar",
+  "sha1": "a98b5ac2580f5870049c008021c77e0b918d04ee",
+  "size": 1093480,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.glassfish.jaxb",
+    "a": "jaxb-runtime",
+    "v": "2.4.0-b180725.0644"
+   }
+  ]
+ },
+ {
+  "path": "command/lib/jersey-common-2.22.1.jar",
+  "sha1": "b5811d8385766f35d10d204952f3d5b57ee2fb60",
+  "size": 696004,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.glassfish.jersey.core",
+    "a": "jersey-common",
+    "v": "2.22.1"
+   }
+  ]
+ },
+ {
+  "path": "command/lib/log4j-api-2.25.3.jar",
+  "sha1": "fb385330d89c2d61058ef649403f214633569205",
+  "size": 350610,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.apache.logging.log4j",
+    "a": "log4j-api",
+    "v": "2.25.3"
+   }
+  ]
+ },
+ {
+  "path": "command/lib/jetty-util-9.4.57.v20241219.jar",
+  "sha1": "7bf7ea75644ac064199e1e32c66ccd312239f2dc",
+  "size": 588962,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.eclipse.jetty",
+    "a": "jetty-util",
+    "v": "9.4.57.v20241219"
+   }
+  ]
+ },
+ {
+  "path": "command/lib/jersey-proxy-client-2.22.1.jar",
+  "sha1": "20163533fe4e4cb7c3116388640d85d31625b3b2",
+  "size": 9603,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.glassfish.jersey.ext",
+    "a": "jersey-proxy-client",
+    "v": "2.22.1"
+   }
+  ]
+ },
+ {
+  "path": "command/lib/jersey-media-multipart-2.22.1.jar",
+  "sha1": "c68e535f2395fa961a0903dac0ae32641768d4b6",
+  "size": 68019,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.glassfish.jersey.media",
+    "a": "jersey-media-multipart",
+    "v": "2.22.1"
+   }
+  ]
+ },
+ {
+  "path": "command/lib/log4j-core-2.25.3.jar",
+  "sha1": "dd9c8ecba5c8dc5e1574804d0bfdc1ef155ad9ea",
+  "size": 2018402,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.apache.logging.log4j",
+    "a": "log4j-core",
+    "v": "2.25.3"
+   }
+  ]
+ },
+ {
+  "path": "command/lib/mimepull-1.9.7.jar",
+  "sha1": "3085dfe507b6ce43c1fcc60f228d65a7731b8e7d",
+  "size": 63985,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.jvnet.mimepull",
+    "a": "mimepull",
+    "v": "1.9.7"
+   }
+  ]
+ },
+ {
+  "path": "command/lib/reflections-0.9.10.jar",
+  "sha1": "c7f4ea230aedc757ca1499ebcfb2953c81cf8b67",
+  "size": 129763,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.reflections",
+    "a": "reflections",
+    "v": "0.9.10"
+   }
+  ]
+ },
+ {
+  "path": "command/lib/rhino-1.7.13.jar",
+  "sha1": "e6b2e12dc79fbdc58d8bf62a583705a551ec37d6",
+  "size": 1315838,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.mozilla",
+    "a": "rhino",
+    "v": "1.7.13"
+   }
+  ]
+ },
+ {
+  "path": "command/lib/slf4j-api-1.7.30.jar",
+  "sha1": "b5a4b6d16ab13e34a88fae84c35cd5d68cac922c",
+  "size": 41472,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.slf4j",
+    "a": "slf4j-api",
+    "v": "1.7.30"
+   }
+  ]
+ },
+ {
+  "path": "command/lib/slf4j-log4j12-1.7.30.jar",
+  "sha1": "c21f55139d8141d2231214fb1feaf50a1edca95e",
+  "size": 12211,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.slf4j",
+    "a": "slf4j-log4j12",
+    "v": "1.7.30"
+   }
+  ]
+ },
+ {
+  "path": "command/lib/swagger-annotations-2.0.10.jar",
+  "sha1": "85428dac7402fdca267219b76af644c21246b6bd",
+  "size": 34730,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "io.swagger.core.v3",
+    "a": "swagger-annotations",
+    "v": "2.0.10"
+   }
+  ]
+ },
+ {
+  "path": "command/lib/staxon-1.3.jar",
+  "sha1": "9cec6f1c1a05eeebb0b83b3e909fd4b496ddde44",
+  "size": 150272,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "de.odysseus.staxon",
+    "a": "staxon",
+    "v": "1.3"
+   }
+  ]
+ },
+ {
+  "path": "command/lib/velocity-engine-core-2.3.jar",
+  "sha1": "e2133b723d0e42be74880d34de6bf6538ea7f915",
+  "size": 531308,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.apache.velocity",
+    "a": "velocity-engine-core",
+    "v": "2.3"
+   }
+  ]
+ },
+ {
+  "path": "command/lib/xstream-1.4.20.jar",
+  "sha1": "0e2315b8b2e95e9f21697833c8e56cdd9c98a5ee",
+  "size": 644649,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "com.thoughtworks.xstream",
+    "a": "xstream",
+    "v": "1.4.20"
+   }
+  ]
+ },
+ {
+  "path": "command/lib/velocity-tools-generic-3.1.jar",
+  "sha1": "07aaa49086a64cd9dab967a8437cc03abbfad655",
+  "size": 216933,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.apache.velocity.tools",
+    "a": "velocity-tools-generic",
+    "v": "3.1"
+   }
+  ]
+ },
+ {
+  "path": "command/lib/xpp3-1.1.4c.jar",
+  "sha1": "9b988ea84b9e4e9f1874e390ce099b8ac12cfff5",
+  "size": 120069,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "xpp3",
+    "a": "xpp3",
+    "v": "1.1.4c"
+   }
+  ]
+ },
+ {
+  "path": "donkey/lib/commons/commons-codec-1.21.0.jar",
+  "sha1": "d95f998db5f89900fe895daf6cd2cddcb2f1d64b",
+  "size": 402494,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "commons-codec",
+    "a": "commons-codec",
+    "v": "1.21.0"
+   }
+  ]
+ },
+ {
+  "path": "donkey/lib/HikariCP-2.5.1.jar",
+  "sha1": "b896b711e2d98fedf403de590559a123b5fbf1a6",
+  "size": 136363,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "com.zaxxer",
+    "a": "HikariCP",
+    "v": "2.5.1"
+   }
+  ]
+ },
+ {
+  "path": "donkey/lib/commons/commons-beanutils-1.11.0.jar",
+  "sha1": "ac03ea606d13de04c2e4508227680faff151f491",
+  "size": 246806,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "commons-beanutils",
+    "a": "commons-beanutils",
+    "v": "1.11.0"
+   }
+  ]
+ },
+ {
+  "path": "command/testlib/junit-4.8.1.jar",
+  "sha1": "f2975548f836416306ef1dee748d956f04733915",
+  "size": 237047,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "junit",
+    "a": "junit",
+    "v": "4.8.1"
+   }
+  ]
+ },
+ {
+  "path": "donkey/lib/commons/commons-collections4-4.4.jar",
+  "sha1": "62ebe7544cb7164d87e0637a2a6a2bdc981395e8",
+  "size": 751914,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.apache.commons",
+    "a": "commons-collections4",
+    "v": "4.4"
+   }
+  ]
+ },
+ {
+  "path": "donkey/lib/commons/commons-io-2.21.0.jar",
+  "sha1": "52a6f68fe5afe335cde95461dd5c3412f04996f7",
+  "size": 585274,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "commons-io",
+    "a": "commons-io",
+    "v": "2.21.0"
+   }
+  ]
+ },
+ {
+  "path": "donkey/lib/commons/commons-dbutils-1.7.jar",
+  "sha1": "a2d6e515aa87e5d38f6b3003e70b13c1b1f19ca0",
+  "size": 97075,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "commons-dbutils",
+    "a": "commons-dbutils",
+    "v": "1.7"
+   }
+  ]
+ },
+ {
+  "path": "donkey/lib/commons/commons-dbcp2-2.0.1.jar",
+  "sha1": "dc887691eab129c5728e26b095751fcadd36719d",
+  "size": 167962,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.apache.commons",
+    "a": "commons-dbcp2",
+    "v": "2.0.1"
+   }
+  ]
+ },
+ {
+  "path": "donkey/lib/commons/commons-lang3-3.20.0.jar",
+  "sha1": "65897b3e5731220962e659e001904af3c3cbeba9",
+  "size": 713862,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.apache.commons",
+    "a": "commons-lang3",
+    "v": "3.20.0"
+   }
+  ]
+ },
+ {
+  "path": "donkey/lib/commons/commons-logging-1.3.5.jar",
+  "sha1": "a3fcc5d3c29b2b03433aa2d2f2d2c1b1638924a1",
+  "size": 73737,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "commons-logging",
+    "a": "commons-logging",
+    "v": "1.3.5"
+   }
+  ]
+ },
+ {
+  "path": "donkey/lib/commons/commons-math3-3.0.jar",
+  "sha1": "5f8d1d720333aa9a7dee1c949ea70d9ed7da6106",
+  "size": 1285617,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.apache.commons",
+    "a": "commons-math3",
+    "v": "3.0"
+   }
+  ]
+ },
+ {
+  "path": "donkey/lib/commons/commons-pool2-2.3.jar",
+  "sha1": "62a559a025fd890c30364296ece14643ba9c8c5b",
+  "size": 109568,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.apache.commons",
+    "a": "commons-pool2",
+    "v": "2.3"
+   }
+  ]
+ },
+ {
+  "path": "donkey/lib/commons/commons-text-1.15.0.jar",
+  "sha1": "9899093aa40f0199d6c39b131b8f087cdb37e399",
+  "size": 264873,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.apache.commons",
+    "a": "commons-text",
+    "v": "1.15.0"
+   }
+  ]
+ },
+ {
+  "path": "donkey/lib/database/derby-10.10.2.0.jar",
+  "sha1": "47eba6736561c377f2132f5e09e2fe8084d899a9",
+  "size": 2838580,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.apache.derby",
+    "a": "derby",
+    "v": "10.10.2.0"
+   }
+  ]
+ },
+ {
+  "path": "donkey/lib/database/jtds-1.3.1.jar",
+  "sha1": "1fc4d17efa80dc375767b0c1006584175212e9dc",
+  "size": 317816,
+  "status": "none",
+  "reason": "content identical to Central net.sourceforge.jtds:jtds:1.3.1 (verified entry by entry); only the zip container/packaging differs. Kept vendored under the file-level SHA-exact policy; adopting the Central coordinate is a safe documented follow-up."
+ },
+ {
+  "path": "donkey/lib/database/mssql-jdbc-8.4.1.jre8.jar",
+  "sha1": "b5ffea221217c051429a6d2af974ee7341765424",
+  "size": 1300915,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "com.microsoft.sqlserver",
+    "a": "mssql-jdbc",
+    "v": "8.4.1.jre8"
+   }
+  ]
+ },
+ {
+  "path": "donkey/lib/database/mysql-connector-j-8.4.0.jar",
+  "sha1": "b1bc0f47bcad26ad5f9bceefb63fcb920d868fca",
+  "size": 2533399,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "com.mysql",
+    "a": "mysql-connector-j",
+    "v": "8.4.0"
+   }
+  ]
+ },
+ {
+  "path": "donkey/lib/database/ojdbc8-12.2.0.1.jar",
+  "sha1": "60f439fd01536508df32658d0a416c49ac6f07fb",
+  "size": 4036257,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "com.oracle.database.jdbc",
+    "a": "ojdbc8",
+    "v": "12.2.0.1"
+   }
+  ]
+ },
+ {
+  "path": "donkey/lib/database/postgresql-42.7.8.jar",
+  "sha1": "81b840fbfe0a6c0b7aa14c6bd4856108d36ed780",
+  "size": 1116727,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.postgresql",
+    "a": "postgresql",
+    "v": "42.7.8"
+   }
+  ],
+  "note": "verified directly against repo1.maven.org .jar.sha1; absent from the Central search checksum index"
+ },
+ {
+  "path": "donkey/lib/guava/checker-qual-2.10.0.jar",
+  "sha1": "5786699a0cb71f9dc32e6cca1d665eef07a0882f",
+  "size": 201216,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.checkerframework",
+    "a": "checker-qual",
+    "v": "2.10.0"
+   }
+  ]
+ },
+ {
+  "path": "donkey/lib/guava/error_prone_annotations-2.3.4.jar",
+  "sha1": "dac170e4594de319655ffb62f41cbd6dbb5e601e",
+  "size": 13879,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "com.google.errorprone",
+    "a": "error_prone_annotations",
+    "v": "2.3.4"
+   }
+  ]
+ },
+ {
+  "path": "donkey/lib/guava/guava-32.0.1-jre.jar",
+  "sha1": "6e5d51a72d142f2d40a57dfb897188b36a95b489",
+  "size": 3037368,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "com.google.guava",
+    "a": "guava",
+    "v": "32.0.1-jre"
+   }
+  ]
+ },
+ {
+  "path": "donkey/lib/guava/failureaccess-1.0.1.jar",
+  "sha1": "1dcf1de382a0bf95a3d8b0849546c88bac1292c9",
+  "size": 4617,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "com.google.guava",
+    "a": "failureaccess",
+    "v": "1.0.1"
+   }
+  ]
+ },
+ {
+  "path": "donkey/lib/guava/j2objc-annotations-1.3.jar",
+  "sha1": "ba035118bc8bac37d7eff77700720999acd9986d",
+  "size": 8781,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "com.google.j2objc",
+    "a": "j2objc-annotations",
+    "v": "1.3"
+   }
+  ]
+ },
+ {
+  "path": "donkey/lib/guava/jsr305-3.0.2.jar",
+  "sha1": "25ea2e8b0c338a877313bd4672d3fe056ea78f0d",
+  "size": 19936,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "com.google.code.findbugs",
+    "a": "jsr305",
+    "v": "3.0.2"
+   }
+  ]
+ },
+ {
+  "path": "donkey/lib/guice-4.1.0.jar",
+  "sha1": "eeb69005da379a10071aa4948c48d89250febb07",
+  "size": 674028,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "com.google.inject",
+    "a": "guice",
+    "v": "4.1.0"
+   }
+  ]
+ },
+ {
+  "path": "donkey/lib/javassist-3.26.0-GA.jar",
+  "sha1": "bb2890849968d8d8311ffba8c37b0ce16ce284dc",
+  "size": 782535,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.javassist",
+    "a": "javassist",
+    "v": "3.26.0-GA"
+   }
+  ]
+ },
+ {
+  "path": "donkey/lib/guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar",
+  "sha1": "b421526c5f297295adef1c886e5246c39d4ac629",
+  "size": 2199,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "com.google.guava",
+    "a": "listenablefuture",
+    "v": "9999.0-empty-to-avoid-conflict-with-guava"
+   }
+  ]
+ },
+ {
+  "path": "donkey/lib/log4j-1.2-api-2.25.3.jar",
+  "sha1": "a7e550e638a5e534fd944616c5ae665a67e9501e",
+  "size": 359213,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.apache.logging.log4j",
+    "a": "log4j-1.2-api",
+    "v": "2.25.3"
+   }
+  ]
+ },
+ {
+  "path": "donkey/lib/quartz-2.3.2.jar",
+  "sha1": "18a6d6b5a40b77bd060b34cb9f2acadc4bae7c8a",
+  "size": 693050,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.quartz-scheduler",
+    "a": "quartz",
+    "v": "2.3.2"
+   }
+  ]
+ },
+ {
+  "path": "donkey/lib/log4j-core-2.25.3.jar",
+  "sha1": "dd9c8ecba5c8dc5e1574804d0bfdc1ef155ad9ea",
+  "size": 2018402,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.apache.logging.log4j",
+    "a": "log4j-core",
+    "v": "2.25.3"
+   }
+  ]
+ },
+ {
+  "path": "donkey/lib/log4j-api-2.25.3.jar",
+  "sha1": "fb385330d89c2d61058ef649403f214633569205",
+  "size": 350610,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.apache.logging.log4j",
+    "a": "log4j-api",
+    "v": "2.25.3"
+   }
+  ]
+ },
+ {
+  "path": "donkey/lib/slf4j-api-1.7.30.jar",
+  "sha1": "b5a4b6d16ab13e34a88fae84c35cd5d68cac922c",
+  "size": 41472,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.slf4j",
+    "a": "slf4j-api",
+    "v": "1.7.30"
+   }
+  ]
+ },
+ {
+  "path": "donkey/lib/xstream/xpp3-1.1.4c.jar",
+  "sha1": "9b988ea84b9e4e9f1874e390ce099b8ac12cfff5",
+  "size": 120069,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "xpp3",
+    "a": "xpp3",
+    "v": "1.1.4c"
+   }
+  ]
+ },
+ {
+  "path": "donkey/lib/slf4j-log4j12-1.7.30.jar",
+  "sha1": "c21f55139d8141d2231214fb1feaf50a1edca95e",
+  "size": 12211,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.slf4j",
+    "a": "slf4j-log4j12",
+    "v": "1.7.30"
+   }
+  ]
+ },
+ {
+  "path": "donkey/lib/xstream/xstream-1.4.20.jar",
+  "sha1": "0e2315b8b2e95e9f21697833c8e56cdd9c98a5ee",
+  "size": 644649,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "com.thoughtworks.xstream",
+    "a": "xstream",
+    "v": "1.4.20"
+   }
+  ]
+ },
+ {
+  "path": "donkey/testlib/aopalliance-repackaged-2.4.0-b31.jar",
+  "sha1": "5e7899ad02fd55f5651a5e5d1a70aee421ba2030",
+  "size": 14765,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.glassfish.hk2.external",
+    "a": "aopalliance-repackaged",
+    "v": "2.4.0-b31"
+   }
+  ]
+ },
+ {
+  "path": "donkey/testlib/byte-buddy-1.14.13.jar",
+  "sha1": "45cf516d9a23485200950549ff72b204c307fc9d",
+  "size": 4212903,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "net.bytebuddy",
+    "a": "byte-buddy",
+    "v": "1.14.13"
+   }
+  ]
+ },
+ {
+  "path": "donkey/testlib/javax.inject-2.4.0-b31.jar",
+  "sha1": "04bb71bbdae1064675e36d057bd2c95a00e2e84b",
+  "size": 5951,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.glassfish.hk2.external",
+    "a": "javax.inject",
+    "v": "2.4.0-b31"
+   }
+  ]
+ },
+ {
+  "path": "donkey/testlib/byte-buddy-agent-1.14.13.jar",
+  "sha1": "979ce25f7d3096a2e82214ba7dc972a05ce7a171",
+  "size": 256811,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "net.bytebuddy",
+    "a": "byte-buddy-agent",
+    "v": "1.14.13"
+   }
+  ]
+ },
+ {
+  "path": "donkey/testlib/junit-4.8.1.jar",
+  "sha1": "f2975548f836416306ef1dee748d956f04733915",
+  "size": 237047,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "junit",
+    "a": "junit",
+    "v": "4.8.1"
+   }
+  ]
+ },
+ {
+  "path": "donkey/testlib/mockito-core-5.1.1.jar",
+  "sha1": "31fd75d9d80e678032e5dc1bad17386f192853ea",
+  "size": 685421,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.mockito",
+    "a": "mockito-core",
+    "v": "5.1.1"
+   }
+  ]
+ },
+ {
+  "path": "donkey/testlib/objenesis-2.5.1.jar",
+  "sha1": "272bab9a4e5994757044d1fc43ce480c8cb907a4",
+  "size": 54391,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.objenesis",
+    "a": "objenesis",
+    "v": "2.5.1"
+   }
+  ]
+ },
+ {
+  "path": "generator/lib/commons-collections4-4.4.jar",
+  "sha1": "62ebe7544cb7164d87e0637a2a6a2bdc981395e8",
+  "size": 751914,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.apache.commons",
+    "a": "commons-collections4",
+    "v": "4.4"
+   }
+  ]
+ },
+ {
+  "path": "generator/lib/commons-io-2.21.0.jar",
+  "sha1": "52a6f68fe5afe335cde95461dd5c3412f04996f7",
+  "size": 585274,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "commons-io",
+    "a": "commons-io",
+    "v": "2.21.0"
+   }
+  ]
+ },
+ {
+  "path": "generator/lib/log4j-api-2.25.3.jar",
+  "sha1": "fb385330d89c2d61058ef649403f214633569205",
+  "size": 350610,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.apache.logging.log4j",
+    "a": "log4j-api",
+    "v": "2.25.3"
+   }
+  ]
+ },
+ {
+  "path": "generator/lib/commons-lang3-3.20.0.jar",
+  "sha1": "65897b3e5731220962e659e001904af3c3cbeba9",
+  "size": 713862,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.apache.commons",
+    "a": "commons-lang3",
+    "v": "3.20.0"
+   }
+  ]
+ },
+ {
+  "path": "generator/lib/log4j-1.2-api-2.25.3.jar",
+  "sha1": "a7e550e638a5e534fd944616c5ae665a67e9501e",
+  "size": 359213,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.apache.logging.log4j",
+    "a": "log4j-1.2-api",
+    "v": "2.25.3"
+   }
+  ]
+ },
+ {
+  "path": "generator/lib/log4j-core-2.25.3.jar",
+  "sha1": "dd9c8ecba5c8dc5e1574804d0bfdc1ef155ad9ea",
+  "size": 2018402,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.apache.logging.log4j",
+    "a": "log4j-core",
+    "v": "2.25.3"
+   }
+  ]
+ },
+ {
+  "path": "generator/lib/slf4j-api-1.7.30.jar",
+  "sha1": "b5a4b6d16ab13e34a88fae84c35cd5d68cac922c",
+  "size": 41472,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.slf4j",
+    "a": "slf4j-api",
+    "v": "1.7.30"
+   }
+  ]
+ },
+ {
+  "path": "generator/lib/velocity-engine-core-2.3.jar",
+  "sha1": "e2133b723d0e42be74880d34de6bf6538ea7f915",
+  "size": 531308,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.apache.velocity",
+    "a": "velocity-engine-core",
+    "v": "2.3"
+   }
+  ]
+ },
+ {
+  "path": "generator/lib/slf4j-log4j12-1.7.30.jar",
+  "sha1": "c21f55139d8141d2231214fb1feaf50a1edca95e",
+  "size": 12211,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.slf4j",
+    "a": "slf4j-log4j12",
+    "v": "1.7.30"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/HikariCP-2.5.1.jar",
+  "sha1": "b896b711e2d98fedf403de590559a123b5fbf1a6",
+  "size": 136363,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "com.zaxxer",
+    "a": "HikariCP",
+    "v": "2.5.1"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/ant/asm-commons-9.2.jar",
+  "sha1": "f4d7f0fc9054386f2893b602454d48e07d4fbead",
+  "size": 72642,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.ow2.asm",
+    "a": "asm-commons",
+    "v": "9.2"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/ant/ant-contrib-1.0b3.jar",
+  "sha1": "943cd5c8802b2a3a64a010efb86ec19bac142e40",
+  "size": 224277,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "ant-contrib",
+    "a": "ant-contrib",
+    "v": "1.0b3"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/ant/asm-9.2.jar",
+  "sha1": "81a03f76019c67362299c40e0ba13405f5467bff",
+  "size": 122004,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.ow2.asm",
+    "a": "asm",
+    "v": "9.2"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/ant/asm-tree-9.2.jar",
+  "sha1": "d96c99a30f5e1a19b0e609dbb19a44d8518ac01e",
+  "size": 52660,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.ow2.asm",
+    "a": "asm-tree",
+    "v": "9.2"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/ant/org.jacoco.agent-0.8.8.jar",
+  "sha1": "6ee1de41e73bc9480d23970262d2b00d2a4ed97b",
+  "size": 267616,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.jacoco",
+    "a": "org.jacoco.agent",
+    "v": "0.8.8"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/ant/org.jacoco.ant-0.8.8.jar",
+  "sha1": "77363f317d3ddfe4c4fd0cb622ee551baae2faa9",
+  "size": 35398,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.jacoco",
+    "a": "org.jacoco.ant",
+    "v": "0.8.8"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/ant/org.jacoco.core-0.8.8.jar",
+  "sha1": "fb1257ce77ec2fe326aad639b2253e76f481ea2e",
+  "size": 202533,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.jacoco",
+    "a": "org.jacoco.core",
+    "v": "0.8.8"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/ant/org.jacoco.report-0.8.8.jar",
+  "sha1": "366581c3bc90e2900320c528c294949bad7232c8",
+  "size": 128884,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.jacoco",
+    "a": "org.jacoco.report",
+    "v": "0.8.8"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/aws/apache-client-2.15.28.jar",
+  "sha1": "dedb0517e771816ab8c6a507cc6fb65fa9671a4a",
+  "size": 65744,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "software.amazon.awssdk",
+    "a": "apache-client",
+    "v": "2.15.28"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/aws/auth-2.15.28.jar",
+  "sha1": "91bc27cb508650f8be16146e682acc1844bbb26e",
+  "size": 133500,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "software.amazon.awssdk",
+    "a": "auth",
+    "v": "2.15.28"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/aws/annotations-2.15.28.jar",
+  "sha1": "04a758cf8d5d0da5d3a7213a96efb2b62f5e92c4",
+  "size": 7451,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "software.amazon.awssdk",
+    "a": "annotations",
+    "v": "2.15.28"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/aws/aws-core-2.15.28.jar",
+  "sha1": "13a66816b914fa05978d7934b9d65fbe3ddf2561",
+  "size": 90561,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "software.amazon.awssdk",
+    "a": "aws-core",
+    "v": "2.15.28"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/aws/aws-json-protocol-2.15.28.jar",
+  "sha1": "28d1725f07dee67cdf9269c45130f8abc6d816a3",
+  "size": 112463,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "software.amazon.awssdk",
+    "a": "aws-json-protocol",
+    "v": "2.15.28"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/aws/aws-query-protocol-2.15.28.jar",
+  "sha1": "ce9f7835fe7f50d9d905a427d35b8fd4fb4776be",
+  "size": 64423,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "software.amazon.awssdk",
+    "a": "aws-query-protocol",
+    "v": "2.15.28"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/aws/aws-xml-protocol-2.15.28.jar",
+  "sha1": "4a26eb4cd0db4fdabdbdb75d612ea482a133e2fe",
+  "size": 87702,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "software.amazon.awssdk",
+    "a": "aws-xml-protocol",
+    "v": "2.15.28"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/aws/eventstream-1.0.1.jar",
+  "sha1": "6ff8649dffc5190366ada897ba8525a836297784",
+  "size": 30193,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "software.amazon.eventstream",
+    "a": "eventstream",
+    "v": "1.0.1"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/aws/ext/netty/netty-buffer-4.1.119.Final.jar",
+  "sha1": "5864149b2e5a2af7b05fe9e9dc3e4b70d3060a7c",
+  "size": 339044,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "io.netty",
+    "a": "netty-buffer",
+    "v": "4.1.119.Final"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/aws/ext/netty/netty-codec-4.1.119.Final.jar",
+  "sha1": "337ca8e8c3ef23925e02d56347b414d7616d1d02",
+  "size": 355199,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "io.netty",
+    "a": "netty-codec",
+    "v": "4.1.119.Final"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/aws/ext/netty/netty-codec-http-4.1.119.Final.jar",
+  "sha1": "23196984df6083cc39bef22a54c6cf5b157f3824",
+  "size": 676321,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "io.netty",
+    "a": "netty-codec-http",
+    "v": "4.1.119.Final"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/aws/ext/netty/netty-codec-http2-4.1.119.Final.jar",
+  "sha1": "648b066861723b60635bef2047229ed73d0cbd04",
+  "size": 491365,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "io.netty",
+    "a": "netty-codec-http2",
+    "v": "4.1.119.Final"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/aws/ext/netty/netty-common-4.1.119.Final.jar",
+  "sha1": "2f7c360b03c0aceab7efc1f7c2b75274f0f35909",
+  "size": 719224,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "io.netty",
+    "a": "netty-common",
+    "v": "4.1.119.Final"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/aws/ext/netty/netty-nio-client-2.20.140.jar",
+  "sha1": "282625cafb04e5b428a6064ad75005e9323f44dd",
+  "size": 285065,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "software.amazon.awssdk",
+    "a": "netty-nio-client",
+    "v": "2.20.140"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/aws/ext/netty/netty-handler-4.1.119.Final.jar",
+  "sha1": "a0059b8d779ce566b524efd6d73ba4fcff3cd5d9",
+  "size": 580333,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "io.netty",
+    "a": "netty-handler",
+    "v": "4.1.119.Final"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/aws/ext/netty/netty-reactive-streams-2.0.8.jar",
+  "sha1": "52c055da731b1620ada2f6a23aa6c191993dea3c",
+  "size": 21495,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "com.typesafe.netty",
+    "a": "netty-reactive-streams",
+    "v": "2.0.8"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/aws/ext/netty/netty-reactive-streams-http-2.0.8.jar",
+  "sha1": "4b68ca6184152cac6386924f5d992e2b4c6a4b46",
+  "size": 33821,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "com.typesafe.netty",
+    "a": "netty-reactive-streams-http",
+    "v": "2.0.8"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/aws/ext/netty/netty-resolver-4.1.119.Final.jar",
+  "sha1": "e1f7c90aff71bdf0e2294a200b5f89244f88dcf7",
+  "size": 37841,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "io.netty",
+    "a": "netty-resolver",
+    "v": "4.1.119.Final"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/aws/ext/netty/netty-transport-4.1.119.Final.jar",
+  "sha1": "d05df879054297962d056b77460fc4ff20e30073",
+  "size": 521425,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "io.netty",
+    "a": "netty-transport",
+    "v": "4.1.119.Final"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/aws/ext/netty/netty-transport-native-epoll-4.1.119.Final-linux-x86_64.jar",
+  "sha1": "500fdc2000a47c07ad6c0ea230127f5ac3c9ad5c",
+  "size": 40596,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "io.netty",
+    "a": "netty-transport-native-epoll",
+    "v": "4.1.119.Final"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/aws/ext/netty/netty-transport-native-unix-common-4.1.119.Final.jar",
+  "sha1": "55afdeb456bccf8eecb06431f3c1537269afe9af",
+  "size": 44157,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "io.netty",
+    "a": "netty-transport-native-unix-common",
+    "v": "4.1.119.Final"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/aws/ext/reactive-streams-1.0.3.jar",
+  "sha1": "d9fb7a7926ffa635b3dcaa5049fb2bfa25b3e7d0",
+  "size": 11369,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.reactivestreams",
+    "a": "reactive-streams",
+    "v": "1.0.3"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/aws/http-client-spi-2.15.28.jar",
+  "sha1": "2c332aade7efa01069519f7bb2d5fe1ed3c6219c",
+  "size": 61682,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "software.amazon.awssdk",
+    "a": "http-client-spi",
+    "v": "2.15.28"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/aws/kms-2.15.28.jar",
+  "sha1": "1bb2632416a3454039734764a95fb9adc2b4e377",
+  "size": 1033224,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "software.amazon.awssdk",
+    "a": "kms",
+    "v": "2.15.28"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/aws/profiles-2.15.28.jar",
+  "sha1": "db95fb991e39a2e6205271a7d403db711d52afae",
+  "size": 26486,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "software.amazon.awssdk",
+    "a": "profiles",
+    "v": "2.15.28"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/aws/metrics-spi-2.15.28.jar",
+  "sha1": "b606a8e9802880260c248969259304ebe65dfa7c",
+  "size": 18718,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "software.amazon.awssdk",
+    "a": "metrics-spi",
+    "v": "2.15.28"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/aws/protocol-core-2.15.28.jar",
+  "sha1": "c85b66c8eac0df2bce9a1a4cbf7eabd4fc6de846",
+  "size": 30001,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "software.amazon.awssdk",
+    "a": "protocol-core",
+    "v": "2.15.28"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/aws/regions-2.15.28.jar",
+  "sha1": "b25e279a4fdf0b5dab31627201b68dc6b8d32eb5",
+  "size": 434672,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "software.amazon.awssdk",
+    "a": "regions",
+    "v": "2.15.28"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/aws/sts-2.15.28.jar",
+  "sha1": "7172fd87ced65f45d10a39f19181cf3f94164241",
+  "size": 279385,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "software.amazon.awssdk",
+    "a": "sts",
+    "v": "2.15.28"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/aws/sdk-core-2.15.28.jar",
+  "sha1": "376ea57d24d528d4116ba841e2cf05681c80bb5b",
+  "size": 573234,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "software.amazon.awssdk",
+    "a": "sdk-core",
+    "v": "2.15.28"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/aws/s3-2.15.28.jar",
+  "sha1": "abf57e19f6dfe45debb1d6d72b0af0e96707e6d2",
+  "size": 2781640,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "software.amazon.awssdk",
+    "a": "s3",
+    "v": "2.15.28"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/aws/utils-2.15.28.jar",
+  "sha1": "bc047a4cd8b6ce45d191a2818b41782c9034c80e",
+  "size": 108518,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "software.amazon.awssdk",
+    "a": "utils",
+    "v": "2.15.28"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/backport-util-concurrent-Java60-3.1.jar",
+  "sha1": "f1fa402cbf5390c4fc09b76e8afce01be476f6bb",
+  "size": 321201,
+  "status": "none",
+  "reason": "no artifact of this name on Maven Central"
+ },
+ {
+  "path": "server/lib/bcpkix-jdk18on-1.78.1.jar",
+  "sha1": "17b3541f736df97465f87d9f5b5dfa4991b37bb3",
+  "size": 1125173,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.bouncycastle",
+    "a": "bcpkix-jdk18on",
+    "v": "1.78.1"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/bcprov-jdk18on-1.78.1.jar",
+  "sha1": "39e9e45359e20998eb79c1828751f94a818d25f8",
+  "size": 8324412,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.bouncycastle",
+    "a": "bcprov-jdk18on",
+    "v": "1.78.1"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/bcutil-jdk18on-1.78.1.jar",
+  "sha1": "5353ca39fe2f148dab9ca1d637a43d0750456254",
+  "size": 705135,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.bouncycastle",
+    "a": "bcutil-jdk18on",
+    "v": "1.78.1"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/commons/commons-beanutils-1.11.0.jar",
+  "sha1": "ac03ea606d13de04c2e4508227680faff151f491",
+  "size": 246806,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "commons-beanutils",
+    "a": "commons-beanutils",
+    "v": "1.11.0"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/commons/commons-cli-1.2.jar",
+  "sha1": "2bf96b7aa8b611c177d329452af1dc933e14501c",
+  "size": 41123,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "commons-cli",
+    "a": "commons-cli",
+    "v": "1.2"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/classgraph-4.8.179.jar",
+  "sha1": "f159dd8bbbf381c4006c1f675ec4e648c8317f32",
+  "size": 576120,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "io.github.classgraph",
+    "a": "classgraph",
+    "v": "4.8.179"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/commons/commons-codec-1.21.0.jar",
+  "sha1": "d95f998db5f89900fe895daf6cd2cddcb2f1d64b",
+  "size": 402494,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "commons-codec",
+    "a": "commons-codec",
+    "v": "1.21.0"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/commons/commons-collections4-4.4.jar",
+  "sha1": "62ebe7544cb7164d87e0637a2a6a2bdc981395e8",
+  "size": 751914,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.apache.commons",
+    "a": "commons-collections4",
+    "v": "4.4"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/commons/commons-compress-1.28.0.jar",
+  "sha1": "e482f2c7a88dac3c497e96aa420b6a769f59c8d7",
+  "size": 1117221,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.apache.commons",
+    "a": "commons-compress",
+    "v": "1.28.0"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/commons/commons-collections-3.2.2.jar",
+  "sha1": "8ad72fe39fa8c91eaaf12aadb21e0c3661fe26d5",
+  "size": 588337,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "commons-collections",
+    "a": "commons-collections",
+    "v": "3.2.2"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/commons/commons-configuration2-2.13.0.jar",
+  "sha1": "dc795ed544554745c52d56e0ab5f42529a7cef4e",
+  "size": 675321,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.apache.commons",
+    "a": "commons-configuration2",
+    "v": "2.13.0"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/commons/commons-dbutils-1.7.jar",
+  "sha1": "a2d6e515aa87e5d38f6b3003e70b13c1b1f19ca0",
+  "size": 97075,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "commons-dbutils",
+    "a": "commons-dbutils",
+    "v": "1.7"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/commons/commons-digester3-3.2.jar",
+  "sha1": "c3f68c5ff25ec5204470fd8fdf4cb8feff5e8a79",
+  "size": 241614,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.apache.commons",
+    "a": "commons-digester3",
+    "v": "3.2"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/commons/commons-dbcp2-2.0.1.jar",
+  "sha1": "dc887691eab129c5728e26b095751fcadd36719d",
+  "size": 167962,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.apache.commons",
+    "a": "commons-dbcp2",
+    "v": "2.0.1"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/commons/commons-fileupload-1.6.0.jar",
+  "sha1": "2392704cccb4632b3ccd9b8cfbe2943cca6fc455",
+  "size": 76956,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "commons-fileupload",
+    "a": "commons-fileupload",
+    "v": "1.6.0"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/commons/commons-httpclient-3.0.1.jar",
+  "sha1": "d6364bcc1b2b2aa69d008602d36a700453648560",
+  "size": 279781,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "commons-httpclient",
+    "a": "commons-httpclient",
+    "v": "3.0.1"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/commons/commons-el-1.0.jar",
+  "sha1": "1df2c042b3f2de0124750241ac6c886dbfa2cc2c",
+  "size": 112341,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "tomcat",
+    "a": "commons-el",
+    "v": "5.5.23"
+   },
+   {
+    "g": "commons-el",
+    "a": "commons-el",
+    "v": "1.0"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/commons/commons-email-1.6.0.jar",
+  "sha1": "3fae6004e0c5e1b2b46a2b28e017efcc1a40d6bf",
+  "size": 65234,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.apache.commons",
+    "a": "commons-email",
+    "v": "1.6.0"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/commons/commons-io-2.21.0.jar",
+  "sha1": "52a6f68fe5afe335cde95461dd5c3412f04996f7",
+  "size": 585274,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "commons-io",
+    "a": "commons-io",
+    "v": "2.21.0"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/commons/commons-logging-1.3.5.jar",
+  "sha1": "a3fcc5d3c29b2b03433aa2d2f2d2c1b1638924a1",
+  "size": 73737,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "commons-logging",
+    "a": "commons-logging",
+    "v": "1.3.5"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/commons/commons-lang3-3.20.0.jar",
+  "sha1": "65897b3e5731220962e659e001904af3c3cbeba9",
+  "size": 713862,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.apache.commons",
+    "a": "commons-lang3",
+    "v": "3.20.0"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/commons/commons-jxpath-1.3.jar",
+  "sha1": "c22d7d0f0f40eb7059a23cfa61773a416768b137",
+  "size": 299994,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "commons-jxpath",
+    "a": "commons-jxpath",
+    "v": "1.3"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/commons/commons-text-1.15.0.jar",
+  "sha1": "9899093aa40f0199d6c39b131b8f087cdb37e399",
+  "size": 264873,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.apache.commons",
+    "a": "commons-text",
+    "v": "1.15.0"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/commons/commons-pool2-2.3.jar",
+  "sha1": "62a559a025fd890c30364296ece14643ba9c8c5b",
+  "size": 109568,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.apache.commons",
+    "a": "commons-pool2",
+    "v": "2.3"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/commons/commons-math3-3.0.jar",
+  "sha1": "5f8d1d720333aa9a7dee1c949ea70d9ed7da6106",
+  "size": 1285617,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.apache.commons",
+    "a": "commons-math3",
+    "v": "3.0"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/commons/commons-net-3.9.0.jar",
+  "sha1": "5a4e26802e0a5a42938f987976b55dae4a6cc636",
+  "size": 316431,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "commons-net",
+    "a": "commons-net",
+    "v": "3.9.0"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/commons/httpcore-4.4.13.jar",
+  "sha1": "853b96d3afbb7bf8cc303fe27ee96836a10c1834",
+  "size": 328593,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.apache.httpcomponents",
+    "a": "httpcore",
+    "v": "4.4.13"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/commons/httpmime-4.5.13.jar",
+  "sha1": "efc110bad4a0d45cda7858e6beee1d8a8313da5a",
+  "size": 41790,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.apache.httpcomponents",
+    "a": "httpmime",
+    "v": "4.5.13"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/commons/httpclient-4.5.13.jar",
+  "sha1": "e5f6cae5ca7ecaac1ec2827a9e2d65ae2869cada",
+  "size": 780321,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.apache.httpcomponents",
+    "a": "httpclient",
+    "v": "4.5.13"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/commons/commons-vfs2-2.10.0.jar",
+  "sha1": "a306167fdb88152403c8b00595b1502ffacd5b76",
+  "size": 534044,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.apache.commons",
+    "a": "commons-vfs2",
+    "v": "2.10.0"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/database/derby-10.10.2.0.jar",
+  "sha1": "47eba6736561c377f2132f5e09e2fe8084d899a9",
+  "size": 2838580,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.apache.derby",
+    "a": "derby",
+    "v": "10.10.2.0"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/database/jtds-1.3.1.jar",
+  "sha1": "1fc4d17efa80dc375767b0c1006584175212e9dc",
+  "size": 317816,
+  "status": "none",
+  "reason": "content identical to Central net.sourceforge.jtds:jtds:1.3.1 (verified entry by entry); only the zip container/packaging differs. Kept vendored under the file-level SHA-exact policy; adopting the Central coordinate is a safe documented follow-up."
+ },
+ {
+  "path": "server/lib/database/derbytools-10.10.2.0.jar",
+  "sha1": "3a81714e5b3970ca8b19199b1a18124d678aa274",
+  "size": 214415,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.apache.derby",
+    "a": "derbytools",
+    "v": "10.10.2.0"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/database/mssql-jdbc-8.4.1.jre8.jar",
+  "sha1": "b5ffea221217c051429a6d2af974ee7341765424",
+  "size": 1300915,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "com.microsoft.sqlserver",
+    "a": "mssql-jdbc",
+    "v": "8.4.1.jre8"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/database/mysql-connector-j-8.4.0.jar",
+  "sha1": "b1bc0f47bcad26ad5f9bceefb63fcb920d868fca",
+  "size": 2533399,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "com.mysql",
+    "a": "mysql-connector-j",
+    "v": "8.4.0"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/database/ojdbc8-12.2.0.1.jar",
+  "sha1": "60f439fd01536508df32658d0a416c49ac6f07fb",
+  "size": 4036257,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "com.oracle.database.jdbc",
+    "a": "ojdbc8",
+    "v": "12.2.0.1"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/database/postgresql-42.7.8.jar",
+  "sha1": "81b840fbfe0a6c0b7aa14c6bd4856108d36ed780",
+  "size": 1116727,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.postgresql",
+    "a": "postgresql",
+    "v": "42.7.8"
+   }
+  ],
+  "note": "verified directly against repo1.maven.org .jar.sha1; absent from the Central search checksum index"
+ },
+ {
+  "path": "server/lib/database/sqlite-jdbc-3.43.2.1.jar",
+  "sha1": "e7ddc09b47cd6c0359787f780b0da4590b002d82",
+  "size": 13210296,
+  "status": "none",
+  "reason": "content identical to Central org.xerial:sqlite-jdbc:3.43.2.1 (verified entry by entry); only the zip container/packaging differs. Kept vendored under the file-level SHA-exact policy; adopting the Central coordinate is a safe documented follow-up."
+ },
+ {
+  "path": "server/lib/extensions/dimse/dcm4che-core-2.0.29.jar",
+  "sha1": "e391b27258b3b3502741da7349cd445862a4251a",
+  "size": 402832,
+  "status": "none",
+  "reason": "dcm4che 2.x was distributed from dcm4che.org, never published to Maven Central"
+ },
+ {
+  "path": "server/lib/extensions/dicomviewer/ij.jar",
+  "sha1": "1874a949b2470b4a9d3b156a66df8965620b4059",
+  "size": 1412198,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "gov.nih.imagej",
+    "a": "imagej",
+    "v": "1.42"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/extensions/dimse/dcm4che-filecache-2.0.29.jar",
+  "sha1": "325974a666514da180c911eb5d0442cc4bfa590f",
+  "size": 9461,
+  "status": "none",
+  "reason": "dcm4che 2.x was distributed from dcm4che.org, never published to Maven Central"
+ },
+ {
+  "path": "server/lib/extensions/dimse/dcm4che-net-2.0.29.jar",
+  "sha1": "056fa089209b4d4e5e74f970cb21104c0cc31b7b",
+  "size": 122692,
+  "status": "none",
+  "reason": "dcm4che 2.x was distributed from dcm4che.org, never published to Maven Central"
+ },
+ {
+  "path": "server/lib/extensions/dimse/jai_imageio.jar",
+  "sha1": "d6e1cff914c758b42635331f8884714e363886f1",
+  "size": 927714,
+  "status": "none",
+  "reason": "no version published to Maven Central under the same artifact name matches these bytes; java.net-era JAI ImageIO build (same naming convention as the client copy)"
+ },
+ {
+  "path": "server/lib/extensions/dimse/dcm4che-tool-dcmsnd-2.0.29.jar",
+  "sha1": "509913bfb3db518b842a7a076c167bad3a158287",
+  "size": 25437,
+  "status": "none",
+  "reason": "dcm4che 2.x was distributed from dcm4che.org, never published to Maven Central"
+ },
+ {
+  "path": "server/lib/extensions/dimse/dcm4che-tool-dcmrcv-2.0.29.jar",
+  "sha1": "722eed634d852a62f62c464f5ba8734cdb29c1b2",
+  "size": 23181,
+  "status": "none",
+  "reason": "dcm4che 2.x was distributed from dcm4che.org, never published to Maven Central"
+ },
+ {
+  "path": "server/lib/extensions/doc/flying-saucer-core-9.0.1.jar",
+  "sha1": "9a41783e38c66aac1b6ebb6b0fa48434697c1144",
+  "size": 1106175,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.xhtmlrenderer",
+    "a": "flying-saucer-core",
+    "v": "9.0.1"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/extensions/doc/itext-2.1.7.jar",
+  "sha1": "892bfb3e97074a61123b3b2d7caa2db112750864",
+  "size": 1130070,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "com.lowagie",
+    "a": "itext",
+    "v": "2.1.7"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/extensions/doc/flying-saucer-pdf-9.0.1.jar",
+  "sha1": "ce4a7b619c7c2aff466f23a831bd4655471e2d81",
+  "size": 105089,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.xhtmlrenderer",
+    "a": "flying-saucer-pdf",
+    "v": "9.0.1"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/extensions/doc/graphics2d-0.32.jar",
+  "sha1": "d8892871a9a1446e94f25eb625a7eec3bfa31b15",
+  "size": 73911,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "de.rototor.pdfbox",
+    "a": "graphics2d",
+    "v": "0.32"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/extensions/doc/fontbox-2.0.24.jar",
+  "sha1": "df8ecb3006dfcd52355a5902096e5ec34f06112e",
+  "size": 1564111,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.apache.pdfbox",
+    "a": "fontbox",
+    "v": "2.0.24"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/extensions/doc/openhtmltopdf-pdfbox-1.0.9.jar",
+  "sha1": "449d6821c69b9c932cfec845aa08e9de1f8c52a6",
+  "size": 259024,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "com.openhtmltopdf",
+    "a": "openhtmltopdf-pdfbox",
+    "v": "1.0.9"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/extensions/doc/itext-rtf-2.1.7.jar",
+  "sha1": "ed1cbe69ff69c6e6fa7645f51c8d25894a177e7b",
+  "size": 157360,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "com.lowagie",
+    "a": "itext-rtf",
+    "v": "2.1.7"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/extensions/doc/openhtmltopdf-core-1.0.9.jar",
+  "sha1": "922087a3c59a3a03e9cd77705e584520fff83cf4",
+  "size": 998825,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "com.openhtmltopdf",
+    "a": "openhtmltopdf-core",
+    "v": "1.0.9"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/extensions/doc/pdfbox-2.0.24.jar",
+  "sha1": "cb562ee5f43e29415af4477e62fbe668ef88d18b",
+  "size": 2745079,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.apache.pdfbox",
+    "a": "pdfbox",
+    "v": "2.0.24"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/extensions/doc/xmpbox-2.0.24.jar",
+  "sha1": "df8b7a6a363281f9f1365ed4b37580aa5d3f38f1",
+  "size": 132350,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.apache.pdfbox",
+    "a": "xmpbox",
+    "v": "2.0.24"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/extensions/file/webdavclient4j-core-0.92.jar",
+  "sha1": "70e15b537543c427b2cdb01ef4102818b8336f08",
+  "size": 192186,
+  "status": "none",
+  "reason": "no artifact of this name on Maven Central"
+ },
+ {
+  "path": "server/lib/extensions/pdfviewer/PDFRenderer.jar",
+  "sha1": "64bb55c092cc3f82e241fcb59ce8c60f54cd9ebe",
+  "size": 2069715,
+  "status": "none",
+  "reason": "no version published to Maven Central under the same artifact name matches these bytes; java.net-era PDF renderer, kept vendored"
+ },
+ {
+  "path": "server/lib/extensions/file/jcifs-ng-2.1.10.jar",
+  "sha1": "94b4c0b173540ae98c379ea278713665fd8ab3eb",
+  "size": 822626,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "eu.agno3.jcifs",
+    "a": "jcifs-ng",
+    "v": "2.1.10"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/guice-4.1.0.jar",
+  "sha1": "eeb69005da379a10071aa4948c48d89250febb07",
+  "size": 674028,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "com.google.inject",
+    "a": "guice",
+    "v": "4.1.0"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/extensions/ws/wsdl4j-1.6.2-fixed.jar",
+  "sha1": "ac708fdfb97d144b425f8f6335a938c2fa0dea0a",
+  "size": 148578,
+  "status": "none",
+  "reason": "version 1.6.2-fixed never published to Central (artifact exists; recent versions: 1.6.2, 1.6.3, 1.6.3.wso2v1, 1.6.3.wso2v2, 1.6.3.wso2v3)"
+ },
+ {
+  "path": "server/lib/hapi/hapi-structures-v21-2.3.jar",
+  "sha1": "d48417a1908e4e4694dc3d3f6450aefb8bb80717",
+  "size": 174988,
+  "status": "none",
+  "reason": "content identical to Central ca.uhn.hapi:hapi-structures-v21:2.3 (verified entry by entry); only the zip container/packaging differs. Kept vendored under the file-level SHA-exact policy; adopting the Central coordinate is a safe documented follow-up."
+ },
+ {
+  "path": "server/lib/hapi/hapi-base-2.3.jar",
+  "sha1": "90e1b36af965c950d70de0a657ff224a8086b28e",
+  "size": 663899,
+  "status": "none",
+  "reason": "content identical to Central ca.uhn.hapi:hapi-base:2.3 (verified entry by entry); only the zip container/packaging differs. Kept vendored under the file-level SHA-exact policy; adopting the Central coordinate is a safe documented follow-up."
+ },
+ {
+  "path": "server/lib/hapi/hapi-structures-v231-2.3.jar",
+  "sha1": "aeb04355e85cbd55d0612ab78aa511f7cb2b4165",
+  "size": 1270056,
+  "status": "none",
+  "reason": "content identical to Central ca.uhn.hapi:hapi-structures-v231:2.3 (verified entry by entry); only the zip container/packaging differs. Kept vendored under the file-level SHA-exact policy; adopting the Central coordinate is a safe documented follow-up."
+ },
+ {
+  "path": "server/lib/hapi/hapi-structures-v23-2.3.jar",
+  "sha1": "7610cbc40f2ce4a1fbdd831979ef42dd2088cf70",
+  "size": 1997093,
+  "status": "none",
+  "reason": "content identical to Central ca.uhn.hapi:hapi-structures-v23:2.3 (verified entry by entry); only the zip container/packaging differs. Kept vendored under the file-level SHA-exact policy; adopting the Central coordinate is a safe documented follow-up."
+ },
+ {
+  "path": "server/lib/hapi/hapi-structures-v22-2.3.jar",
+  "sha1": "fa5132c6c657a7f1eaa1497111d4e36b32c6cc81",
+  "size": 407491,
+  "status": "none",
+  "reason": "content identical to Central ca.uhn.hapi:hapi-structures-v22:2.3 (verified entry by entry); only the zip container/packaging differs. Kept vendored under the file-level SHA-exact policy; adopting the Central coordinate is a safe documented follow-up."
+ },
+ {
+  "path": "server/lib/hapi/hapi-structures-v24-2.3.jar",
+  "sha1": "f9689d6a75a9248fb528f3b0d8b17e07692213e1",
+  "size": 1461319,
+  "status": "none",
+  "reason": "content identical to Central ca.uhn.hapi:hapi-structures-v24:2.3 (verified entry by entry); only the zip container/packaging differs. Kept vendored under the file-level SHA-exact policy; adopting the Central coordinate is a safe documented follow-up."
+ },
+ {
+  "path": "server/lib/hapi/hapi-structures-v26-2.3.jar",
+  "sha1": "5ceccab8f5c4d62eec7fee84e184f8e133615a94",
+  "size": 2083091,
+  "status": "none",
+  "reason": "content identical to Central ca.uhn.hapi:hapi-structures-v26:2.3 (verified entry by entry); only the zip container/packaging differs. Kept vendored under the file-level SHA-exact policy; adopting the Central coordinate is a safe documented follow-up."
+ },
+ {
+  "path": "server/lib/hapi/hapi-structures-v251-2.3.jar",
+  "sha1": "1f5addbadb0930471d976178a22995f9f7f673e2",
+  "size": 1883758,
+  "status": "none",
+  "reason": "content identical to Central ca.uhn.hapi:hapi-structures-v251:2.3 (verified entry by entry); only the zip container/packaging differs. Kept vendored under the file-level SHA-exact policy; adopting the Central coordinate is a safe documented follow-up."
+ },
+ {
+  "path": "server/lib/hapi/hapi-structures-v25-2.3.jar",
+  "sha1": "d2f4791e7139d259e107d384d1cb91c81b221868",
+  "size": 1890603,
+  "status": "none",
+  "reason": "content identical to Central ca.uhn.hapi:hapi-structures-v25:2.3 (verified entry by entry); only the zip container/packaging differs. Kept vendored under the file-level SHA-exact policy; adopting the Central coordinate is a safe documented follow-up."
+ },
+ {
+  "path": "server/lib/hapi/hapi-structures-v27-2.3.jar",
+  "sha1": "3f7d410710a30ec72a5bf02fed897630d18347ae",
+  "size": 2219604,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "ca.uhn.hapi",
+    "a": "hapi-structures-v27",
+    "v": "2.3"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/jackson/jackson-core-2.14.3.jar",
+  "sha1": "4fa101f81504ed6811bf1823270adb51a9b45ff3",
+  "size": 473081,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "com.fasterxml.jackson.core",
+    "a": "jackson-core",
+    "v": "2.14.3"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/jackson/jackson-annotations-2.14.3.jar",
+  "sha1": "b49701acb02b8e95ae1967821cfbafc220cf5795",
+  "size": 76636,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "com.fasterxml.jackson.core",
+    "a": "jackson-annotations",
+    "v": "2.14.3"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/hapi/hapi-structures-v281-2.3.jar",
+  "sha1": "254204a380b95bf842c8f3882b49621b81a4a97c",
+  "size": 2402047,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "ca.uhn.hapi",
+    "a": "hapi-structures-v281",
+    "v": "2.3"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/hapi/hapi-structures-v28-2.3.jar",
+  "sha1": "3afe23ad8d7345bd63d4ba2a2814e291930c3621",
+  "size": 2341924,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "ca.uhn.hapi",
+    "a": "hapi-structures-v28",
+    "v": "2.3"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/jackson/jackson-databind-2.14.3.jar",
+  "sha1": "ba0373b04bf0f03b0cd268cd2e5e8444aaaf9208",
+  "size": 1617187,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "com.fasterxml.jackson.core",
+    "a": "jackson-databind",
+    "v": "2.14.3"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/jackson/jackson-dataformat-cbor-2.14.3.jar",
+  "sha1": "081ec6810ce709a0add92533470903dee97695f6",
+  "size": 64894,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "com.fasterxml.jackson.dataformat",
+    "a": "jackson-dataformat-cbor",
+    "v": "2.14.3"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/jackson/jackson-dataformat-yaml-2.14.3.jar",
+  "sha1": "cf8550a0c965aa3a4d08c3857e3f44dae9db9f8b",
+  "size": 54274,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "com.fasterxml.jackson.dataformat",
+    "a": "jackson-dataformat-yaml",
+    "v": "2.14.3"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/jackson/jackson-datatype-jsr310-2.14.3.jar",
+  "sha1": "35f7f751c3555dadccb6f173f9ac1e035a648da3",
+  "size": 122545,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "com.fasterxml.jackson.datatype",
+    "a": "jackson-datatype-jsr310",
+    "v": "2.14.3"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/java-semver-0.10.2.jar",
+  "sha1": "0502f9bd3596181449222c16c6ad7108e320dce3",
+  "size": 52003,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "com.github.zafarkhaja",
+    "a": "java-semver",
+    "v": "0.10.2"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/jackson/snakeyaml-2.5.jar",
+  "sha1": "2d53ddec134280cb384c1e35d094e5f71c1f2316",
+  "size": 340015,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.yaml",
+    "a": "snakeyaml",
+    "v": "2.5"
+   }
+  ],
+  "note": "verified directly against repo1.maven.org .jar.sha1; absent from the Central search checksum index"
+ },
+ {
+  "path": "server/lib/javassist-3.26.0-GA.jar",
+  "sha1": "bb2890849968d8d8311ffba8c37b0ce16ce284dc",
+  "size": 782535,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.javassist",
+    "a": "javassist",
+    "v": "3.26.0-GA"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/javax/jakarta.activation-1.2.1.jar",
+  "sha1": "8013606426a73d8ba6b568370877251e91a38b89",
+  "size": 65690,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "com.sun.activation",
+    "a": "jakarta.activation",
+    "v": "1.2.1"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/javax/jakarta.mail-1.6.7.jar",
+  "sha1": "319df0e9d536c1a01acdfe49b6e82b97d2393073",
+  "size": 676654,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "com.sun.mail",
+    "a": "jakarta.mail",
+    "v": "1.6.7"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/javax/javax.activation-api-1.2.0.jar",
+  "sha1": "85262acf3ca9816f9537ca47d5adeabaead7cb16",
+  "size": 56674,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "one.gfw",
+    "a": "javax.activation-api",
+    "v": "1.2.0"
+   },
+   {
+    "g": "javax.activation",
+    "a": "javax.activation-api",
+    "v": "1.2.0"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/javax/javax.inject-2.4.0-b31.jar",
+  "sha1": "04bb71bbdae1064675e36d057bd2c95a00e2e84b",
+  "size": 5951,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.glassfish.hk2.external",
+    "a": "javax.inject",
+    "v": "2.4.0-b31"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/javax/javax.annotation-api-1.3.2.jar",
+  "sha1": "934c04d3cfef185a8008e7bf34331b79730a9d43",
+  "size": 26586,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "one.gfw",
+    "a": "javax.annotation-api",
+    "v": "1.3.2"
+   },
+   {
+    "g": "javax.annotation",
+    "a": "javax.annotation-api",
+    "v": "1.3.2"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/javax/javax.json-1.0.4.jar",
+  "sha1": "3178f73569fd7a1e5ffc464e680f7a8cc784b85a",
+  "size": 85147,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.glassfish",
+    "a": "javax.json",
+    "v": "1.0.4"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/javax/javax.json-api-1.0.jar",
+  "sha1": "0a74939ecbf7294b40accb4048929577f5ddcee2",
+  "size": 19754,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "javax.json",
+    "a": "javax.json-api",
+    "v": "1.0"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/javax/javax.servlet-api-3.1.0.jar",
+  "sha1": "3cd63d075497751784b2fa84be59432f4905bf7c",
+  "size": 95806,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "javax.servlet",
+    "a": "javax.servlet-api",
+    "v": "3.1.0"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/javax/javax.ws.rs-api-2.0.1.jar",
+  "sha1": "104e9c2b5583cfcfeac0402316221648d6d8ea6b",
+  "size": 115534,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "javax.ws.rs",
+    "a": "javax.ws.rs-api",
+    "v": "2.0.1"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/javax/jaxb/ext/istack-commons-runtime-3.0.6.jar",
+  "sha1": "ef4d2cd80d5b79b8dbe689fb2d7fbfb61cf494f4",
+  "size": 25469,
+  "status": "none",
+  "reason": "version 3.0.6 never published to Central (artifact exists; recent versions: 4.1.0, 4.1.0-M1, 4.1.1, 4.1.2, 4.2.0)"
+ },
+ {
+  "path": "server/lib/javax/jaxb/jaxb-runtime-2.4.0-b180725.0644.jar",
+  "sha1": "a98b5ac2580f5870049c008021c77e0b918d04ee",
+  "size": 1093480,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.glassfish.jaxb",
+    "a": "jaxb-runtime",
+    "v": "2.4.0-b180725.0644"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/javax/jaxb/jaxb-api-2.4.0-b180725.0427.jar",
+  "sha1": "7400ad346870308bcc46bb60f3c553af3e331b4d",
+  "size": 128036,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "javax.xml.bind",
+    "a": "jaxb-api",
+    "v": "2.4.0-b180725.0427"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/javax/jaxb/ext/txw2-2.4.0-b180725.0644.jar",
+  "sha1": "bcdf56b35b4a02d47dbff7fd2f109ea7eff58fcc",
+  "size": 70324,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.glassfish.jaxb",
+    "a": "txw2",
+    "v": "2.4.0-b180725.0644"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/javax/jaxws/ext/gmbal-api-only-3.1.0.b001.jar",
+  "sha1": "3502c55c7ad2085ece6b38202b5169dd9177e0a2",
+  "size": 21820,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.glassfish.gmbal",
+    "a": "gmbal-api-only",
+    "v": "3.1.0-b001"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/javax/jaxws/ext/ha-api-3.1.9.jar",
+  "sha1": "c68b600634d4d4bae3fc54575ae850e734dc1af5",
+  "size": 36383,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.glassfish.ha",
+    "a": "ha-api",
+    "v": "3.1.9"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/javax/jaxws/ext/FastInfoset-1.2.13.jar",
+  "sha1": "098f56b9354e27bd2941cc5d461344e240ae51ae",
+  "size": 296714,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "com.sun.xml.fastinfoset",
+    "a": "FastInfoset",
+    "v": "1.2.13"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/javax/jaxws/ext/jsr181-api-1.0.jar",
+  "sha1": "401cc1d0e5f0d8f4d0532a54928ceaa27ec21258",
+  "size": 7989,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "javax.jws",
+    "a": "jsr181-api",
+    "v": "1.0-MR1"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/javax/jaxws/ext/management-api-3.2.1.b001.jar",
+  "sha1": "df04c42487612c98d222f6400e9fb71bea484bf3",
+  "size": 45142,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.glassfish.external",
+    "a": "management-api",
+    "v": "3.2.1-b001"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/javax/jaxws/ext/mimepull-1.9.7.jar",
+  "sha1": "3085dfe507b6ce43c1fcc60f228d65a7731b8e7d",
+  "size": 63985,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.jvnet.mimepull",
+    "a": "mimepull",
+    "v": "1.9.7"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/javax/jaxws/ext/policy-2.7.2.jar",
+  "sha1": "fd229ae6c09af1a72105f8d43c6911b0ddccbc79",
+  "size": 179038,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "com.sun.xml.ws",
+    "a": "policy",
+    "v": "2.7.2"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/javax/jaxws/ext/saaj-impl-1.0.jar",
+  "sha1": "6bfb1664ab42506a6547a3972395ea3f5b59ef6c",
+  "size": 498924,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "com.sun.xml.messaging.saaj",
+    "a": "saaj-impl",
+    "v": "1.4.0"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/javax/jaxws/ext/streambuffer-1.5.4.jar",
+  "sha1": "fa88707c78bb5f1e5dff5149622625acaa9c6682",
+  "size": 68619,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "com.sun.xml.stream.buffer",
+    "a": "streambuffer",
+    "v": "1.5.4"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/javax/jaxws/ext/stax-ex-1.8.jar",
+  "sha1": "8cc35f73da321c29973191f2cf143d29d26a1df7",
+  "size": 36073,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.jvnet.staxex",
+    "a": "stax-ex",
+    "v": "1.8"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/javax/jaxws/jaxws-api-2.3.0.jar",
+  "sha1": "82db2dfe70624d6ed1e93737abfbb0a4df084a89",
+  "size": 52437,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "javax.xml.ws",
+    "a": "jaxws-api",
+    "v": "2.3.0"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/javax/jaxws/javax.xml.soap-api-1.4.0.jar",
+  "sha1": "667ef2eee594ca7e05a1cbe0b37a428f7b57778f",
+  "size": 46111,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "javax.xml.soap",
+    "a": "javax.xml.soap-api",
+    "v": "1.4.0"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/javax/jaxws/jaxws-rt-2.3.0.2.jar",
+  "sha1": "bdaed53c7730b487cd4f3fac8a667e2cfe3842c8",
+  "size": 2606673,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "com.sun.xml.ws",
+    "a": "jaxws-rt",
+    "v": "2.3.0.2"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/jdom2-2.0.6.1.jar",
+  "sha1": "dc15dff8f701b227ee523eeb7a17f77c10eafe2f",
+  "size": 327806,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.jdom",
+    "a": "jdom2",
+    "v": "2.0.6.1"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/javax/jaxws/jaxws-tools-2.3.0.2.jar",
+  "sha1": "c371a4642c92d810946a93e08404ea72da7a462a",
+  "size": 901211,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "com.sun.xml.ws",
+    "a": "jaxws-tools",
+    "v": "2.3.0.2"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/jersey/ext/aopalliance-repackaged-2.4.0-b31.jar",
+  "sha1": "5e7899ad02fd55f5651a5e5d1a70aee421ba2030",
+  "size": 14765,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.glassfish.hk2.external",
+    "a": "aopalliance-repackaged",
+    "v": "2.4.0-b31"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/jersey/ext/asm-9.6.jar",
+  "sha1": "aa205cf0a06dbd8e04ece91c0b37c3f5d567546a",
+  "size": 123598,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.ow2.asm",
+    "a": "asm",
+    "v": "9.6"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/jersey/ext/asm-analysis-9.6.jar",
+  "sha1": "9ce6c7b174bd997fc2552dff47964546bd7a5ec3",
+  "size": 34041,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.ow2.asm",
+    "a": "asm-analysis",
+    "v": "9.6"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/jersey/ext/asm-commons-9.6.jar",
+  "sha1": "f1a9e5508eff490744144565c47326c8648be309",
+  "size": 72194,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.ow2.asm",
+    "a": "asm-commons",
+    "v": "9.6"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/jersey/ext/asm-tree-9.6.jar",
+  "sha1": "c0cdda9d211e965d2a4448aa3fd86110f2f8c2de",
+  "size": 51935,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.ow2.asm",
+    "a": "asm-tree",
+    "v": "9.6"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/jersey/ext/hk2-api-2.4.0-b31.jar",
+  "sha1": "c4b5f6c426f8e412e606332b93b7cf745a9a12c5",
+  "size": 173037,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.glassfish.hk2",
+    "a": "hk2-api",
+    "v": "2.4.0-b31"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/jersey/ext/asm-util-9.6.jar",
+  "sha1": "f77caf84eb93786a749b2baa40865b9613e3eaee",
+  "size": 91131,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.ow2.asm",
+    "a": "asm-util",
+    "v": "9.6"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/jersey/ext/hk2-utils-2.4.0-b31.jar",
+  "sha1": "2c5cb698cfec8dde859c3db854178d03bf7248a6",
+  "size": 101088,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.glassfish.hk2",
+    "a": "hk2-utils",
+    "v": "2.4.0-b31"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/jersey/ext/hk2-locator-2.4.0-b31.jar",
+  "sha1": "436d6e1ad2b0a3aee939c6e05983b007b3578142",
+  "size": 179705,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.glassfish.hk2",
+    "a": "hk2-locator",
+    "v": "2.4.0-b31"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/jersey/ext/org.osgi.core-4.2.0.jar",
+  "sha1": "66ab449ff3aa5c4adfc82c89025cc983b422eb95",
+  "size": 246924,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.osgi",
+    "a": "org.osgi.core",
+    "v": "4.2.0"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/jersey/ext/validation-api-1.1.0.Final.jar",
+  "sha1": "8613ae82954779d518631e05daa73a6a954817d5",
+  "size": 63777,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "javax.validation",
+    "a": "validation-api",
+    "v": "1.1.0.Final"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/jersey/ext/persistence-api-1.0.jar",
+  "sha1": "5725f57873e05e068803e2bf9d5a8ea3740ffec5",
+  "size": 52150,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "javax.persistence",
+    "a": "persistence-api",
+    "v": "1.0"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/jersey/ext/osgi-resource-locator-1.0.1.jar",
+  "sha1": "4ed2b2d4738aed5786cfa64cba5a332779c4c708",
+  "size": 20235,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.glassfish.hk2",
+    "a": "osgi-resource-locator",
+    "v": "1.0.1"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/jersey/jersey-common-2.22.1.jar",
+  "sha1": "b5811d8385766f35d10d204952f3d5b57ee2fb60",
+  "size": 696004,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.glassfish.jersey.core",
+    "a": "jersey-common",
+    "v": "2.22.1"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/jersey/jersey-container-jetty-servlet-2.22.1.jar",
+  "sha1": "e411f21cba67f8d6aa5986577066d1c924524270",
+  "size": 6912,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.glassfish.jersey.containers",
+    "a": "jersey-container-jetty-servlet",
+    "v": "2.22.1"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/jersey/jersey-client-2.22.1.jar",
+  "sha1": "e39297ef90f4b9bdf0a61b6fa73ae275c1b6e8f1",
+  "size": 163417,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.glassfish.jersey.core",
+    "a": "jersey-client",
+    "v": "2.22.1"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/jersey/jersey-container-jetty-http-2.22.1.jar",
+  "sha1": "ed2d61d3a5332207da65181eb269ad31c6dac864",
+  "size": 26935,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.glassfish.jersey.containers",
+    "a": "jersey-container-jetty-http",
+    "v": "2.22.1"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/jersey/jersey-container-servlet-2.22.1.jar",
+  "sha1": "5a4c27e0271867c212c8cdf730db56898f106041",
+  "size": 16610,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.glassfish.jersey.containers",
+    "a": "jersey-container-servlet",
+    "v": "2.22.1"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/jersey/jersey-guava-2.22.1.jar",
+  "sha1": "2b79eb893818539370899c24893fac9b2fdc4dbd",
+  "size": 971278,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.glassfish.jersey.bundles.repackaged",
+    "a": "jersey-guava",
+    "v": "2.22.1"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/jersey/jersey-container-servlet-core-2.22.1.jar",
+  "sha1": "0d3fb3002ebb5fb5ef4cce370641dbb10bf993b8",
+  "size": 64787,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.glassfish.jersey.containers",
+    "a": "jersey-container-servlet-core",
+    "v": "2.22.1"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/jersey/jersey-media-jaxb-2.22.1.jar",
+  "sha1": "1bc910febfe9e07f741920ff5ac24bb8a59f649f",
+  "size": 72738,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.glassfish.jersey.media",
+    "a": "jersey-media-jaxb",
+    "v": "2.22.1"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/jersey/jersey-media-multipart-2.22.1.jar",
+  "sha1": "c68e535f2395fa961a0903dac0ae32641768d4b6",
+  "size": 68019,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.glassfish.jersey.media",
+    "a": "jersey-media-multipart",
+    "v": "2.22.1"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/jersey/jersey-proxy-client-2.22.1.jar",
+  "sha1": "20163533fe4e4cb7c3116388640d85d31625b3b2",
+  "size": 9603,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.glassfish.jersey.ext",
+    "a": "jersey-proxy-client",
+    "v": "2.22.1"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/jetty/jetty-annotations-9.4.57.v20241219.jar",
+  "sha1": "ca47da3c71d715ce005b420af566b9786829a04d",
+  "size": 86694,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.eclipse.jetty",
+    "a": "jetty-annotations",
+    "v": "9.4.57.v20241219"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/jersey/jersey-server-2.22.1.jar",
+  "sha1": "20eee7b976e7005a40f05c0965dd76a308689e98",
+  "size": 951633,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.glassfish.jersey.core",
+    "a": "jersey-server",
+    "v": "2.22.1"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/jetty/jetty-continuation-9.4.57.v20241219.jar",
+  "sha1": "c2bf5c810049fe23945f737a3c4743da81baa62d",
+  "size": 25372,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.eclipse.jetty",
+    "a": "jetty-continuation",
+    "v": "9.4.57.v20241219"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/jetty/jetty-http-9.4.57.v20241219.jar",
+  "sha1": "c7a3a9c599346708894cf355e03105937f45f427",
+  "size": 249911,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.eclipse.jetty",
+    "a": "jetty-http",
+    "v": "9.4.57.v20241219"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/jetty/jetty-io-9.4.57.v20241219.jar",
+  "sha1": "bd0ca6e5c4314972cd91f427fa09dedfe3b84ff5",
+  "size": 183011,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.eclipse.jetty",
+    "a": "jetty-io",
+    "v": "9.4.57.v20241219"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/jetty/jetty-jndi-9.4.57.v20241219.jar",
+  "sha1": "9ec603efd530c70302949004db592b6b447b785e",
+  "size": 46751,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.eclipse.jetty",
+    "a": "jetty-jndi",
+    "v": "9.4.57.v20241219"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/jetty/jetty-rewrite-9.4.57.v20241219.jar",
+  "sha1": "c38734a0465dfc80c0eacf912f2cf791038b2096",
+  "size": 44668,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.eclipse.jetty",
+    "a": "jetty-rewrite",
+    "v": "9.4.57.v20241219"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/jetty/jetty-security-9.4.57.v20241219.jar",
+  "sha1": "2b545f68d45b947fdc6e279a0e8ae3630ec10e05",
+  "size": 118496,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.eclipse.jetty",
+    "a": "jetty-security",
+    "v": "9.4.57.v20241219"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/jetty/jetty-schemas-3.1.2.jar",
+  "sha1": "e4fb7fb14038a35ac135a784180f8a51a518eab1",
+  "size": 200419,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.eclipse.jetty.toolchain",
+    "a": "jetty-schemas",
+    "v": "3.1.2"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/jetty/jetty-plus-9.4.57.v20241219.jar",
+  "sha1": "b7c03e553743011f4fed7d91fa8aae9fa91524de",
+  "size": 65607,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.eclipse.jetty",
+    "a": "jetty-plus",
+    "v": "9.4.57.v20241219"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/jetty/jetty-server-9.4.57.v20241219.jar",
+  "sha1": "ad3baf52b98b4a32f5714fe2e58ac0e502b4e4d8",
+  "size": 739348,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.eclipse.jetty",
+    "a": "jetty-server",
+    "v": "9.4.57.v20241219"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/jetty/jetty-servlet-9.4.57.v20241219.jar",
+  "sha1": "3e648eebddbf5ad0c0f7698e50c6a69c4a77fd95",
+  "size": 146064,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.eclipse.jetty",
+    "a": "jetty-servlet",
+    "v": "9.4.57.v20241219"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/jetty/jetty-util-9.4.57.v20241219.jar",
+  "sha1": "7bf7ea75644ac064199e1e32c66ccd312239f2dc",
+  "size": 588962,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.eclipse.jetty",
+    "a": "jetty-util",
+    "v": "9.4.57.v20241219"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/jetty/jetty-util-ajax-9.4.57.v20241219.jar",
+  "sha1": "7b5f144a3d0cbfcac62f2fcb9e14ffa765048f0e",
+  "size": 66643,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.eclipse.jetty",
+    "a": "jetty-util-ajax",
+    "v": "9.4.57.v20241219"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/jetty/jetty-webapp-9.4.57.v20241219.jar",
+  "sha1": "3ef93ab9a81547d0def15b8a2d1d6bed7da4bb9c",
+  "size": 140308,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.eclipse.jetty",
+    "a": "jetty-webapp",
+    "v": "9.4.57.v20241219"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/jetty/jetty-xml-9.4.57.v20241219.jar",
+  "sha1": "bfec69b645695b670435016d3ec733656f4f6818",
+  "size": 68894,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.eclipse.jetty",
+    "a": "jetty-xml",
+    "v": "9.4.57.v20241219"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/jetty/jsp/apache-jsp-9.4.57.v20241219.jar",
+  "sha1": "cfa4623d251e847f08d27fb6d6a78f271467002a",
+  "size": 21217,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.eclipse.jetty",
+    "a": "apache-jsp",
+    "v": "9.4.57.v20241219"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/jetty/jsp/org.apache.taglibs.taglibs-standard-impl-1.2.5.jar",
+  "sha1": "9b9783ccb2a323383e6e20e36d368f8997b71967",
+  "size": 206430,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.apache.taglibs",
+    "a": "taglibs-standard-impl",
+    "v": "1.2.5"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/jetty/jsp/org.apache.taglibs.taglibs-standard-spec-1.2.5.jar",
+  "sha1": "c3bb98c30f75fef1e229d1d03cf8457de22f1ba0",
+  "size": 40153,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.apache.taglibs",
+    "a": "taglibs-standard-spec",
+    "v": "1.2.5"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/jetty/jsp/org.eclipse.jdt.ecj-3.19.0.jar",
+  "sha1": "99ccdf7b2a75afb720270ab888bb21d6159ee631",
+  "size": 2884633,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.eclipse.jdt",
+    "a": "ecj",
+    "v": "3.19.0"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/jetty/jsp/org.mortbay.jasper.apache-jsp-8.5.70.jar",
+  "sha1": "67515d2ae96e9cb442659668b6a58423f112b5ed",
+  "size": 1050846,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.mortbay.jasper",
+    "a": "apache-jsp",
+    "v": "8.5.70"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/jetty/jsp/org.mortbay.jasper.apache-el-8.5.70.jar",
+  "sha1": "e280d60a1b02f85babcc20ed53d603def113f853",
+  "size": 256317,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.mortbay.jasper",
+    "a": "apache-el",
+    "v": "8.5.70"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/jms/geronimo-jms_1.1_spec-1.1.1.jar",
+  "sha1": "c872b46c601d8dc03633288b81269f9e42762cea",
+  "size": 32359,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.apache.geronimo.specs",
+    "a": "geronimo-jms_1.1_spec",
+    "v": "1.1.1"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/jms/geronimo-j2ee-management_1.1_spec-1.0.1.jar",
+  "sha1": "5372615b0c04c1913c95c34a0414cef720ca2855",
+  "size": 20220,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.apache.geronimo.specs",
+    "a": "geronimo-j2ee-management_1.1_spec",
+    "v": "1.0.1"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/jna-platform-4.5.2.jar",
+  "sha1": "741853c07152f6c0fef5194efa6b2dabac22e9c0",
+  "size": 2327597,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "net.java.dev.jna",
+    "a": "jna-platform",
+    "v": "4.5.2"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/jna-4.5.2.jar",
+  "sha1": "35d000afbaa4ed425d91873b40f4df9b8236875b",
+  "size": 1484022,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "net.java.dev.jna",
+    "a": "jna",
+    "v": "4.5.2"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/jsch-2.27.7.jar",
+  "sha1": "068a902807ca6e1c56a6418ff3312a1fd2a77bc7",
+  "size": 562567,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "com.github.mwiede",
+    "a": "jsch",
+    "v": "2.27.7"
+   }
+  ],
+  "note": "verified directly against repo1.maven.org .jar.sha1; absent from the Central search checksum index"
+ },
+ {
+  "path": "server/lib/joda-time-2.9.9.jar",
+  "sha1": "f7b520c458572890807d143670c9b24f4de90897",
+  "size": 634048,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "joda-time",
+    "a": "joda-time",
+    "v": "2.9.9"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/log4j/log4j-1.2-api-2.25.3.jar",
+  "sha1": "a7e550e638a5e534fd944616c5ae665a67e9501e",
+  "size": 359213,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.apache.logging.log4j",
+    "a": "log4j-1.2-api",
+    "v": "2.25.3"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/log4j/log4j-api-2.25.3.jar",
+  "sha1": "fb385330d89c2d61058ef649403f214633569205",
+  "size": 350610,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.apache.logging.log4j",
+    "a": "log4j-api",
+    "v": "2.25.3"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/log4j/log4j-core-2.25.3.jar",
+  "sha1": "dd9c8ecba5c8dc5e1574804d0bfdc1ef155ad9ea",
+  "size": 2018402,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.apache.logging.log4j",
+    "a": "log4j-core",
+    "v": "2.25.3"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/mirth-vocab.jar",
+  "sha1": "ec29b1f3dd1403953533effd9ac24dc40c083eed",
+  "size": 5019845,
+  "status": "none",
+  "reason": "in-house artifact, built by the generator module (:generator:vocabJar)"
+ },
+ {
+  "path": "server/lib/mybatis-3.1.1.jar",
+  "sha1": "8a9f355255ae72fc50009a7a2885313188b94037",
+  "size": 651643,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.mybatis",
+    "a": "mybatis",
+    "v": "3.1.1"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/not-going-to-be-commons-ssl-0.3.18.jar",
+  "sha1": "c6a5fa303ab82dcafe142842d9cb4b31c71e8861",
+  "size": 189337,
+  "status": "none",
+  "reason": "locally modified: 2 class files differ vs Central com.narupley:not-going-to-be-commons-ssl:0.3.18 (verified entry by entry). Must stay vendored; treat as a fork when considering upgrades."
+ },
+ {
+  "path": "server/lib/quartz-2.3.2.jar",
+  "sha1": "18a6d6b5a40b77bd060b34cb9f2acadc4bae7c8a",
+  "size": 693050,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.quartz-scheduler",
+    "a": "quartz",
+    "v": "2.3.2"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/oshi-core-3.9.1.jar",
+  "sha1": "81a5b5f248d7f733fb1e15e63ebaf9c9c6d990ca",
+  "size": 441294,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "com.github.oshi",
+    "a": "oshi-core",
+    "v": "3.9.1"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/rhino-1.7.13.jar",
+  "sha1": "e6b2e12dc79fbdc58d8bf62a583705a551ec37d6",
+  "size": 1315838,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.mozilla",
+    "a": "rhino",
+    "v": "1.7.13"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/staxon-1.3.jar",
+  "sha1": "9cec6f1c1a05eeebb0b83b3e909fd4b496ddde44",
+  "size": 150272,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "de.odysseus.staxon",
+    "a": "staxon",
+    "v": "1.3"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/swagger/ext/reflections-0.9.10.jar",
+  "sha1": "c7f4ea230aedc757ca1499ebcfb2953c81cf8b67",
+  "size": 129763,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.reflections",
+    "a": "reflections",
+    "v": "0.9.10"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/swagger/swagger-annotations-2.0.10.jar",
+  "sha1": "85428dac7402fdca267219b76af644c21246b6bd",
+  "size": 34730,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "io.swagger.core.v3",
+    "a": "swagger-annotations",
+    "v": "2.0.10"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/swagger/swagger-core-2.0.10.jar",
+  "sha1": "1948d49413f0a0718b6bbe0a0b56341a80e00486",
+  "size": 163608,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "io.swagger.core.v3",
+    "a": "swagger-core",
+    "v": "2.0.10"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/swagger/swagger-integration-2.0.10.jar",
+  "sha1": "d8c53732e74d543678f7d66d13e3ea5b62c590de",
+  "size": 30502,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "io.swagger.core.v3",
+    "a": "swagger-integration",
+    "v": "2.0.10"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/swagger/swagger-models-2.0.10.jar",
+  "sha1": "81655033c66bae2b78a5972f3a15a9cf4b65db58",
+  "size": 118276,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "io.swagger.core.v3",
+    "a": "swagger-models",
+    "v": "2.0.10"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/swagger/swagger-jaxrs2-servlet-initializer-2.0.10.jar",
+  "sha1": "7289acc931dec910feadbca249a4b4159ad2e697",
+  "size": 31271,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "io.swagger.core.v3",
+    "a": "swagger-jaxrs2-servlet-initializer",
+    "v": "2.0.10"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/swagger/swagger-jaxrs2-2.0.10.jar",
+  "sha1": "df57a58a1b6d2ab68cbe658b6cd3252f2a6a6f3a",
+  "size": 82006,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "io.swagger.core.v3",
+    "a": "swagger-jaxrs2",
+    "v": "2.0.10"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/velocity-engine-core-2.3.jar",
+  "sha1": "e2133b723d0e42be74880d34de6bf6538ea7f915",
+  "size": 531308,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.apache.velocity",
+    "a": "velocity-engine-core",
+    "v": "2.3"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/velocity-tools-generic-3.1.jar",
+  "sha1": "07aaa49086a64cd9dab967a8437cc03abbfad655",
+  "size": 216933,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.apache.velocity.tools",
+    "a": "velocity-tools-generic",
+    "v": "3.1"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/xpp3-1.1.4c.jar",
+  "sha1": "9b988ea84b9e4e9f1874e390ce099b8ac12cfff5",
+  "size": 120069,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "xpp3",
+    "a": "xpp3",
+    "v": "1.1.4c"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/xstream-1.4.20.jar",
+  "sha1": "0e2315b8b2e95e9f21697833c8e56cdd9c98a5ee",
+  "size": 644649,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "com.thoughtworks.xstream",
+    "a": "xstream",
+    "v": "1.4.20"
+   }
+  ]
+ },
+ {
+  "path": "server/lib/zip4j_1.3.3.jar",
+  "sha1": "7791ee6d23da90c010fb9993dde3f124ba0f750c",
+  "size": 123998,
+  "status": "none",
+  "reason": "locally modified: 60 class files differ vs Central net.lingala.zip4j:zip4j:1.3.3 (verified entry by entry). Must stay vendored; treat as a fork when considering upgrades."
+ },
+ {
+  "path": "server/testlib/byte-buddy-agent-1.14.13.jar",
+  "sha1": "979ce25f7d3096a2e82214ba7dc972a05ce7a171",
+  "size": 256811,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "net.bytebuddy",
+    "a": "byte-buddy-agent",
+    "v": "1.14.13"
+   }
+  ]
+ },
+ {
+  "path": "server/testlib/hamcrest-2.2.jar",
+  "sha1": "1820c0968dba3a11a1b30669bb1f01978a91dedc",
+  "size": 123360,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.hamcrest",
+    "a": "hamcrest",
+    "v": "2.2"
+   }
+  ]
+ },
+ {
+  "path": "server/testlib/junit-4.13.1.jar",
+  "sha1": "cdd00374f1fee76b11e2a9d127405aa3f6be5b6a",
+  "size": 382708,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "junit",
+    "a": "junit",
+    "v": "4.13.1"
+   }
+  ]
+ },
+ {
+  "path": "server/testlib/byte-buddy-1.14.13.jar",
+  "sha1": "45cf516d9a23485200950549ff72b204c307fc9d",
+  "size": 4212903,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "net.bytebuddy",
+    "a": "byte-buddy",
+    "v": "1.14.13"
+   }
+  ]
+ },
+ {
+  "path": "server/testlib/objenesis-2.5.1.jar",
+  "sha1": "272bab9a4e5994757044d1fc43ce480c8cb907a4",
+  "size": 54391,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.objenesis",
+    "a": "objenesis",
+    "v": "2.5.1"
+   }
+  ]
+ },
+ {
+  "path": "server/testlib/mockito-core-5.1.1.jar",
+  "sha1": "31fd75d9d80e678032e5dc1bad17386f192853ea",
+  "size": 685421,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.mockito",
+    "a": "mockito-core",
+    "v": "5.1.1"
+   }
+  ]
+ },
+ {
+  "path": "server/testlib/mockito-inline-5.1.1.jar",
+  "sha1": "3d1dffee9a8a1998ec782383ca2f818848f2d5f1",
+  "size": 1501,
+  "status": "exact",
+  "matches": [
+   {
+    "g": "org.mockito",
+    "a": "mockito-inline",
+    "v": "5.2.0"
+   },
+   {
+    "g": "org.mockito",
+    "a": "mockito-inline",
+    "v": "5.1.1"
+   },
+   {
+    "g": "org.mockito",
+    "a": "mockito-inline",
+    "v": "5.1.0"
+   }
+  ]
+ }
+]
