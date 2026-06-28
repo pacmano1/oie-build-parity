@@ -31,8 +31,10 @@ git worktree add /tmp/oie-ant 8c1111ba3
 (cd /tmp/oie-ant/server && ant -f mirth-build.xml -DdisableSigning=true -DdisableTests=true build)
 
 # 4. Gradle build of the migration branch (use the SAME JDK build for both,
-#    and the SAME calendar day: version.properties embeds the build date)
-./gradlew clean build dist -DdisableSigning=true
+#    and the SAME calendar day: version.properties embeds the build date).
+#    Gradle build flags are project properties (-P); the Ant baseline above
+#    uses Ant's own -D syntax.
+./gradlew clean build dist -PdisableSigning=true
 
 # 5. Compare every archive, entry by entry
 python3 "$PARITY/compare_builds.py" /tmp/oie-ant/server/setup server/setup
@@ -63,14 +65,39 @@ reported separately:
 - zip entry timestamps and ordering
 - the `version.properties` timestamp comment (differs between any two
   builds of the old Ant system as well)
+- empty `package-info.class` markers present only in the Ant baseline:
+  Ant's javac emitted an inert, empty `package-info.class` for every
+  annotation-free `package-info.java`; the Gradle build does not
+  reproduce these (a documented, zero-runtime-effect difference), so
+  ant-only markers of that shape are classified as expected, not real
 
 Anything else is a real difference and fails the run. The Gradle
-migration was accepted at 490/490 archives with fully identical entry
-contents against an Ant baseline built on the same machine.
+migration was accepted with all archives' entry contents identical
+against an Ant baseline built on the same machine, modulo the classified
+metadata above.
 
 `compare_builds.py` is also useful beyond the migration: it diffs any two
 `server/setup` trees, so it answers "did this build-logic change alter the
 product?" for two Gradle builds, with no Ant involved.
+
+## snapshot_distribution.py
+
+The lightweight half of the build-logic change-safety protocol. It writes
+one `sha256sum`-style line per file of a `server/setup` tree, sorted, so a
+plain `diff` of two snapshots shows exactly which distribution files a
+build-logic change touched:
+
+```bash
+python3 snapshot_distribution.py <engine>/server/setup > before.txt
+# ... make your build-logic change, rebuild ...
+python3 snapshot_distribution.py <engine>/server/setup > after.txt
+diff before.txt after.txt
+```
+
+Only the files you intended to change should appear. For archive-entry-level
+analysis of any file that does differ, use `compare_builds.py`. This
+replaces the in-build `snapshotDistribution` task that previously lived in
+the engine's `build.gradle`.
 
 ## jar-provenance.json
 
@@ -165,7 +192,7 @@ two runs differ).
 ## Signed-build check
 
 Signing is on by default in the engine build (the committed development
-keystore; `-DdisableSigning=true` skips it). The 216 jars that ship
+keystore; `-PdisableSigning=true` skips it). The 216 jars that ship
 signed are the client-lib and extension jars:
 
 ```bash

@@ -20,6 +20,20 @@ SIG_SUFFIXES = ('.SF', '.RSA', '.DSA', '.EC')
 def is_signature(name):
     return name.startswith('META-INF/') and name.upper().endswith(SIG_SUFFIXES)
 
+def is_empty_package_info(data):
+    """True for the inert, empty package-info.class that Ant's javac emitted
+    for an annotation-free package-info.java. The Gradle build does not
+    reproduce these markers (a documented, zero-runtime-effect difference),
+    so an ant-only entry of this shape is normalized away, not a real diff.
+    A real (annotated) package-info.class carries a Runtime{Visible,Invisible}
+    Annotations attribute (RUNTIME and CLASS retention respectively) and is
+    larger; rejecting both keeps a meaningful package-info a real diff. SOURCE
+    retention leaves no class-file trace, so such a class genuinely is empty."""
+    return (data[:4] == b'\xca\xfe\xba\xbe'
+            and len(data) < 200
+            and b'RuntimeVisibleAnnotations' not in data
+            and b'RuntimeInvisibleAnnotations' not in data)
+
 def walk(root):
     out = {}
     for dirpath, _, filenames in os.walk(root):
@@ -85,6 +99,14 @@ def compare_zip(rel, pa, pb, report):
     if IGNORE_SIGNATURES:
         files_a = {n for n in files_a if not is_signature(n)}
         files_b = {n for n in files_b if not is_signature(n)}
+    # Ant emitted empty package-info.class markers the Gradle build does not
+    # reproduce; classify ant-only markers as an expected delta (not real).
+    pkginfo_only_a = {n for n in (files_a - files_b)
+                      if n.rsplit('/', 1)[-1] == 'package-info.class'
+                      and is_empty_package_info(za.read(n))}
+    if pkginfo_only_a:
+        report['packageinfo'] += len(pkginfo_only_a)
+        files_a = files_a - pkginfo_only_a
     dirs_a = {n for n in za.namelist() if n.endswith('/')}
     dirs_b = {n for n in zb.namelist() if n.endswith('/')}
     if files_a != files_b:
@@ -103,7 +125,7 @@ def compare_zip(rel, pa, pb, report):
 def main(ant_root, gradle_root):
     a, b = walk(ant_root), walk(gradle_root)
     report = {'real': [], 'direntries': [], 'manifest': 0, 'versionprops': 0,
-              'identical': 0, 'zip_content_ok': 0}
+              'identical': 0, 'zip_content_ok': 0, 'packageinfo': 0}
     for m in sorted(set(a) - set(b)):
         report['real'].append(f'missing from gradle build: {m}')
     for m in sorted(set(b) - set(a)):
@@ -131,6 +153,7 @@ def main(ant_root, gradle_root):
     print(f'Jars/zips with fully identical entry contents: {report["zip_content_ok"]} / {n_zips}')
     print(f'Manifests differing only in Ant-Version/Created-By: {report["manifest"]}')
     print(f'version.properties differing only in timestamp comment: {report["versionprops"]}')
+    print(f'Ant-only empty package-info.class markers not reproduced (expected): {report["packageinfo"]}')
     if report['direntries']:
         print(f'\nDirectory-entry-only differences ({len(report["direntries"])}):')
         for x in report['direntries'][:10]:
