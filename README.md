@@ -17,30 +17,33 @@ can be checked out and built at any time.
 
 ## Quick start
 
+All paths below are absolute, so it does not matter which directory you run
+from. Set the two variables once and paste the rest.
+
 ```bash
 # 1. This tooling
 git clone https://github.com/pacmano1/oie-build-parity
 PARITY="$(cd oie-build-parity && pwd)"
 
-# 2. The engine
+# 2. The engine (skip the clone if you already have it; just point ENGINE at it)
 git clone https://github.com/OpenIntegrationEngine/engine
-cd engine
+ENGINE="$(cd engine && pwd)"
 
-# 3. Ant baseline at the migration's parent commit
-git worktree add /tmp/oie-ant 8c1111ba3
+# 3. Ant baseline at the migration's parent commit, in a throwaway worktree
+git -C "$ENGINE" worktree add /tmp/oie-ant 8c1111ba3
 (cd /tmp/oie-ant/server && ant -f mirth-build.xml -DdisableSigning=true -DdisableTests=true build)
 
 # 4. Gradle build of the migration branch (use the SAME JDK build for both,
 #    and the SAME calendar day: version.properties embeds the build date).
 #    Gradle build flags are project properties (-P); the Ant baseline above
 #    uses Ant's own -D syntax.
-./gradlew clean build dist -PdisableSigning=true
+(cd "$ENGINE" && ./gradlew clean build dist -PdisableSigning=true)
 
-# 5. Compare every archive, entry by entry
-python3 "$PARITY/compare_builds.py" /tmp/oie-ant/server/setup server/setup
+# 5. Compare every archive, entry by entry (absolute paths; cwd-independent)
+python3 "$PARITY/compare_builds.py" /tmp/oie-ant/server/setup "$ENGINE/server/setup"
 
 # 6. Cleanup
-git worktree remove --force /tmp/oie-ant
+git -C "$ENGINE" worktree remove --force /tmp/oie-ant
 ```
 
 Expected result: `REAL differences (0)`. The Ant baseline builds in
@@ -56,6 +59,10 @@ archive-entry level:
 ```bash
 python3 compare_builds.py <baseline-setup> <candidate-setup>
 ```
+
+Both arguments are directory paths. A relative path is resolved from your
+current directory, so a wrong cwd shows up as every file "missing from" one
+side; pass absolute paths (or run from a known directory) to avoid that.
 
 Every file is byte-compared. Jars and zips that differ are compared entry
 by entry. Differences that are pure tool metadata are classified and
